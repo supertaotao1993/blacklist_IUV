@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_blacklist_add_manual"
+        android:title="@string/blacklist_add_manual"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_blacklist_add_number_prefix"
+        android:title="@string/blacklist_add_number_prefix"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_blacklist_add_from_contacts"
+        android:title="@string/blacklist_add_from_contacts"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_blacklist_add_from_call_log"
+        android:title="@string/blacklist_add_from_call_log"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_blacklist_add_from_sms"
+        android:title="@string/blacklist_add_from_sms"
+        android:showAsAction="never" />
+    
+</menu>

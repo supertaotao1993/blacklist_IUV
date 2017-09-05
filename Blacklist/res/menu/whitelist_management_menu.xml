@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_whitelist_add_from_intercept_sms"
+        android:title="@string/whitelist_add_from_intercept_sms"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_whitelist_add_from_intercept_call"
+        android:title="@string/whitelist_add_from_intercept_call"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_whitelist_add_from_contacts"
+        android:title="@string/blacklist_add_from_contacts"
+        android:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_whitelist_add_manual"
+        android:title="@string/blacklist_add_manual"
+        android:showAsAction="never" />
+    
+</menu>

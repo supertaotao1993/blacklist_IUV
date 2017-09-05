@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- add divide size for Contacts by yimin.zhu on 2019.1.19 begin -->
+    <dimen name="divide_size">10dp</dimen>
+    
+    <dimen name="interception_tab_header_text_size">20sp</dimen>
+    <dimen name="interception_empty_view_size">20sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    
+    <dimen name="sim_switch_header_size">14sp</dimen>
+    
+    <dimen name="tab_selected_underline_height">3dp</dimen>
+    <dimen name="view_pager_tab_height">36dp</dimen>
+    <dimen name="files_list_item_height">72dp</dimen>
+    <dimen name="hct_common_actionbar_height">43dip</dimen>
+    
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="tab_line_y_offset">35dp</dimen>
+</resources>

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+This file contains the themes that are the Device Defaults.
+If you want to edit styles to skin your device, do it here.
+We recommend that you do not edit styles.xml and instead edit
+this file.
+
+Editing this file instead of styles.xml will greatly simplify
+merges for future platform versions and CTS compliance will be
+easier.
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" >
+    <!-- Widget Styles -->
+    
+    <style name="Widget.HCT.ListView.DropDown" parent="@android:style/Widget.Material.ListView.DropDown" >
+
+    </style>
+    <style name="Widget.HCT.TextView.SpinnerItem" parent="@android:style/Widget.Material.TextView.SpinnerItem" >
+        <item name="android:paddingStart">1dp</item>
+        <item name="android:paddingEnd">1dp</item>
+    </style>
+    <!--yangpent TabWidget <item name="android:background">@drawable/tab_indicator_holo</item>-->
+    <style name="Widget.HCT.Light.Tab" parent="@android:style/Widget.Material.Tab">
+        <item name="android:background">@drawable/item_background_borderless_material</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:minWidth">80dip</item>
+    </style>
+
+    <style name="Widget.HCT.StackView" parent="@android:style/Widget.Material.StackView">
+
+    </style>
+    <style name="Widget.HCT.TextSelectHandle" parent="@android:style/Widget">
+        <item name="android:popupAnimationStyle">@style/Animation.TextSelectHandle</item>
+    </style>
+    <!-- Base style for animations.  This style specifies no animations. -->
+    <style name="Animation" />
+	
+    <!-- Style for animating text selection handles. -->
+    <style name="Animation.TextSelectHandle">
+        <item name="android:windowEnterAnimation">@anim/fast_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fast_fade_out</item>
+    </style>	
+
+    <style name="Widget.HCT.Light" parent="@android:style/Widget.Material.Light" >
+
+    </style>
+    <style name="Widget.HCT.Light.Button" parent="@android:style/Widget.Material.Button" >
+		<item name="android:background">@drawable/btn_default_shape_techain</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:stateListAnimator">@null</item> 
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:minWidth">75dip</item>
+    </style>
+    <style name="Widget.HCT.Light.Button.Small" parent="@android:style/Widget.Material.Button.Small" >
+		<!--item name="android:background">@drawable/btn_default_hct_light</item-->
+		<!--yangpeng -->
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@color/primary_text_hct_light</item>
+    </style>
+    <style name="Widget.HCT.Light.Button.Inset" parent="@android:style/Widget.Material.Button.Inset" >
+
+    </style>
+    <style name="Widget.HCT.Light.Button.Toggle" parent="@android:style/Widget.Material.Button.Toggle" >
+		<!--item name="android:background">@drawable/btn_toggle_hct_light</item-->
+		<!--yangpeng -->
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@color/primary_text_hct_light</item>
+		
+    </style>
+    <style name="Widget.HCT.Light.TextView" parent="@android:style/Widget.Material.Light.TextView" >
+    </style>
+    <style name="Widget.HCT.Light.AutoCompleteTextView" parent="@android:style/Widget.Material.Light.AutoCompleteTextView" >
+	<!--
+	  <item name="android:dropDownSelector">@drawable/list_selector_hct_light</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hct_light</item>
+	-->
+    </style>
+    <style name="Widget.HCT.Light.CompoundButton.CheckBox" parent="@android:style/Widget.Material.Light.CompoundButton.CheckBox" >
+		<item name="android:background">@null</item>
+		<item name="android:button">@drawable/checkbox_default_selector_techain</item>
+    </style>
+
+    <style name="Widget.HCT.Light.EditText" parent="@android:style/Widget.Material.Light.EditText" >
+
+    </style>
+    <style name="Widget.HCT.Light.ExpandableListView" parent="@android:style/Widget.Material.Light.ExpandableListView" >
+	 <!--item name="android:groupIndicator">@drawable/expander_group_hct_light</item-->
+     <item name="android:childDivider">?android:attr/listDivider</item>
+    </style>
+    <style name="Widget.HCT.Light.GridView" parent="@android:style/Widget.Material.Light.GridView" >
+
+    </style>
+    <style name="Widget.HCT.Light.ImageButton" parent="@android:style/Widget.Material.Light.ImageButton" >
+
+    </style>
+    <style name="Widget.HCT.Light.ListView" parent="@android:style/Widget.Material.Light.ListView" >
+		<item name="android:groupIndicator">@drawable/expander_group_hct_light</item>
+       	<item name="android:childDivider">?android:attr/listDivider</item>
+		<!--
+       	<item name="android:listSelector">@drawable/list_selector_background_hct_light</item>
+        <item name="android:divider">@drawable/list_divider_hct_light</item>
+		-->
+        <item name="android:background">@color/list_view_background_hct_light</item>
+    </style>
+    <style name="Widget.HCT.Light.PopupWindow" parent="@android:style/Widget.Material.Light.PopupWindow" >
+
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar" parent="@android:style/Widget.Material.Light.ProgressBar" >
+	  <item name="android:indeterminateDrawable">@drawable/progress_medium_hct</item>
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Horizontal" parent="@android:style/Widget.Material.Light.ProgressBar.Horizontal" >
+      <!--item name="android:progressDrawable">@drawable/progress_horizontal_hct_light</item>
+      <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal_hct</item-->
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Small" parent="@android:style/Widget.Material.Light.ProgressBar.Small" >
+      <item name="android:indeterminateDrawable">@drawable/progress_small_hct</item>
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Small.Title" parent="@android:style/Widget.Material.Light.ProgressBar.Small.Title" >
+
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Large" parent="@android:style/Widget.Material.Light.ProgressBar.Large" >
+      <item name="android:indeterminateDrawable">@drawable/progress_large_hct</item>
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Inverse" parent="@android:style/Widget.Material.Light.ProgressBar.Inverse" >
+
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Small.Inverse" parent="@android:style/Widget.Material.Light.ProgressBar.Small.Inverse" >
+
+    </style>
+    <style name="Widget.HCT.Light.ProgressBar.Large.Inverse" parent="@android:style/Widget.Material.Light.ProgressBar.Large.Inverse" >
+
+    </style>
+    <style name="Widget.HCT.Light.SeekBar" parent="@android:style/Widget.Material.SeekBar" >
+		<item name="android:progressDrawable">@drawable/seekbar_track_material_techain</item>
+        <item name="android:indeterminateDrawable">@drawable/seekbar_track_material_techain</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_material_anim_techain</item>
+        <item name="android:background">@null</item>
+       
+    </style>
+    <style name="Widget.HCT.Light.RatingBar" parent="@android:style/Widget.Material.Light.RatingBar" >
+
+    </style>
+    <style name="Widget.HCT.Light.RatingBar.Indicator" parent="@android:style/Widget.Material.Light.RatingBar.Indicator" >
+
+    </style>
+    <style name="Widget.HCT.Light.RatingBar.Small" parent="@android:style/Widget.Material.Light.RatingBar.Small" >
+
+    </style>
+    <style name="Widget.HCT.Light.CompoundButton.RadioButton" parent="@android:style/Widget.Material.Light.CompoundButton.RadioButton" >
+        <item name="android:button">@drawable/radiobutton_default_selector_techain</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Widget.HCT.Light.ScrollView" parent="@android:style/Widget.Material.Light.ScrollView" >
+
+    </style>
+    <style name="Widget.HCT.Light.HorizontalScrollView" parent="@android:style/Widget.Material.Light.HorizontalScrollView" >
+
+    </style>
+
+	<!--<item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>-->
+	<!--yangpeng add         
+-->
+    <style name="Widget.HCT.Light.Spinner" parent="@android:style/Widget.Material.Spinner" >
+	 <item name="android:background">@drawable/spinner_background_hct_light</item>
+        <item name="android:dropDownSelector">@drawable/list_selector_hct_light</item>
+        
+    </style>
+    
+    <style name="Widget.HCT.Light.CompoundButton.Star" parent="@android:style/Widget.Material.Light.CompoundButton.Star" >
+
+    </style>
+
+
+
+    
+    <style name="Widget.HCT.Light.WebTextView" parent="@android:style/Widget.Material.Light.WebTextView" >
+
+    </style>
+    <style name="Widget.HCT.Light.WebView" parent="@android:style/Widget.Material.Light.WebView" >
+
+    </style>
+    <style name="Widget.HCT.Light.DropDownItem" parent="@android:style/Widget.Material.Light.DropDownItem" >
+
+    </style>
+    <style name="Widget.HCT.Light.DropDownItem.Spinner" parent="@android:style/Widget.Material.Light.DropDownItem.Spinner" >
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+
+    </style>
+ 
+    <style name="Widget.HCT.Light.ListPopupWindow" parent="android:style/Widget.Material.ListPopupWindow" >
+      <!--item name="android:dropDownSelector">@drawable/list_selector_hct_light_popwindow</item-->
+      <item name="android:popupBackground">@drawable/menu_dropdown_panel_hct_light</item>
+    </style>
+    <style name="Widget.HCT.Light.PopupMenu" parent="Widget.HCT.Light.ListPopupWindow" >
+
+    </style>
+
+    <style name="Widget.HCT.Light.Button.Borderless.Small" parent="@android:style/Widget.Holo.Light.Button.Borderless.Small" >
+     <item name="android:background">@drawable/btn_default_hct_light</item>
+    </style>
+    <style name="Widget.HCT.Light.ActionButton" parent="@android:style/Widget.Material.ActionButton" >
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="Widget.HCT.Light.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" >
+        <item name="android:minWidth">@dimen/action_button_min_width</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:paddingEnd">16dip</item>
+        
+    </style>
+
+    <!--yangpeng modify action color-->
+     <!--yangpeng add new -->
+     <style name="TextAppearance.HCT.Light.Widget.ActionMode.Title"  parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title">
+     		<item name="android:textColor">#CC000000</item>
+     		<item name="android:textSize">14sp</item>
+    </style>
+
+     <style name="TextAppearance.HCT.Light.Widget.ActionMode.Subtitle"  parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle">
+     		<item name="android:textColor">#4D000000</item>
+     		<item name="android:textSize">12sp</item>
+    </style>
+    
+    
+    <style name="Widget.HCT.Light.ActionMode" parent="@android:style/Widget.Material.Light.ActionMode" >
+		<item name="android:titleTextStyle">@style/TextAppearance.HCT.Light.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.HCT.Light.Widget.ActionMode.Subtitle</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_transparent_light_hct</item>
+    </style>
+    
+    <style name="Widget.HCT.Light.ActionButton.CloseMode" parent="@android:style/Widget.Material.ActionButton.CloseMode">
+        <item name="android:minWidth">49dip</item>
+        <item name="android:paddingStart">29dip</item>
+        <item name="android:paddingEnd">20dip</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginEnd">0dip</item>
+		<!--item name="android:background">@drawable/btn_cab_done_hct_light</item-->
+    </style>
+    <!--yagnpeng -->
+    <style name="Widget.HCT.Light.ActionBar" parent="@android:style/Widget.Material.Light.ActionBar.Solid" >
+        <item name="android:divider">@drawable/ab_dividing_line</item>
+    	<item name="android:background">@drawable/ab_transparent_light_hct</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_transparent_light_hct</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_transparent_light_hct</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Widget.HCT.Light.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Widget.HCT.Light.ActionBar.Subtitle</item>
+        <item name="android:elevation">@dimen/actionbar_elevation</item>
+        
+    </style>
+	
+    <style name="TextAppearance.Widget.HCT.Light.ActionBar.Title"  parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+     		<item name="android:textColor">#CC000000</item>
+     		<item name="android:textSize">14sp</item>
+    </style>
+
+     <!--yangpeng add new -->
+     <style name="TextAppearance.Widget.HCT.Light.ActionBar.Subtitle"  parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+     		<item name="android:textColor">#4D000000</item>
+     		<item name="android:textSize">12sp</item>
+    </style>
+    
+    <!--yanpgeng Widget.Holo.Light.ActionBar.TabView-->
+    <style name="Widget.HCT.Light.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" >
+	<!--item name="android:background">@drawable/tab_indicator_ab_hct</item-->
+	<item name="android:background">@drawable/item_background_borderless_material</item>
+	
+	<item name="android:gravity">center_horizontal</item>
+	 <item name="android:minWidth">72dip</item>
+    </style>
+    
+
+    <!--yangpeng add for tab-->
+    <style name="Widget.HCT.Light.ActionBar.TabText" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+         <item name="android:textSize">46px</item>
+    </style>
+
+   <style name="Widget.HCT.Light.TabText" parent="Widget.HCT.Light.ActionBar.TabText">
+        <item name="android:maxWidth">180dip</item>
+	<item name="android:textSize">18sp</item>
+    </style>
+    <!--end yang-->
+    
+    <style name="Widget.HCT.Light.ActionBar.TabBar" parent="@android:style/Widget.Material.Light.ActionBar.TabBar" >
+		<item name="android:divider">@drawable/action_bar_tab_divider</item>
+    </style>
+   
+    <style name="Widget.HCT.Light.AbsListView" parent="@android:style/Widget.AbsListView" >
+
+    </style>
+
+    <!--yangpeng-->
+    <style name="Widget.HCT.Light.Spinner.DropDown.ActionBar" parent="android:style/Widget.Material.Spinner" >
+	<!--item name="android:background">@drawable/spinner_ab_hct_light</item-->
+	<item name="android:popupBackground">@drawable/menu_dropdown_panel_hct_light</item>
+	<item name="android:background">@drawable/spinner_background_material</item>
+    <item name="android:overlapAnchor">false</item>
+    </style>
+
+    <style name="Widget.HCT.Light.Button.Borderless" parent="@android:style/Widget.Material.Button.Borderless">
+
+    </style>
+  
+    <style name="Widget.HCT.Light.ExpandableListView.White" parent="@android:style/Widget.Material.ExpandableListView">
+
+    </style>
+    <style name="Widget.HCT.Light.Gallery" parent="@android:style/Widget.Gallery">
+
+    </style>
+    <style name="Widget.HCT.Light.GestureOverlayView" parent="@android:style/Widget">
+        <item name="android:gestureStrokeWidth">12.0</item>
+        <item name="android:gestureColor">#ffffff00</item>
+        <item name="android:uncertainGestureColor">#48ffff00</item>
+        <item name="android:fadeOffset">420</item>
+        <item name="android:fadeDuration">150</item>
+        <item name="android:gestureStrokeLengthThreshold">50.0</item>
+        <item name="android:gestureStrokeSquarenessThreshold">0.275</item>
+        <item name="android:gestureStrokeAngleThreshold">40.0</item>
+        <item name="android:eventsInterceptionEnabled">true</item>
+    </style>
+
+    <style name="Widget.HCT.Light.ImageWell" parent="@android:style/Widget.ImageWell">
+
+    </style>
+    <style name="Widget.HCT.Light.ListView.White" parent="@android:style/Widget.Material.ListView">
+
+    </style>
+
+    <!--yangpeng-->
+    <style name="Widget.HCT.Light.Spinner.DropDown" parent="@android:style/Widget.Material.Spinner">
+	 <!--item name="android:background">@drawable/spinner_background_hct_light</item-->
+        <!--item name="android:dropDownSelector">@drawable/list_selector_hct_light</item-->
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_hct_light</item>
+            <item name="android:dropDownVerticalOffset">32dip</item>
+	    <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Widget.HCT.Light.TextView.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:background">#e5e5e5</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_height">19dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">8dip</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+	
+
+    <style name="Widget.HCT.Light.TextSuggestionsPopupWindow" parent="@android:style/Widget">
+    <!--lcj for text selector-->
+       <item name="android:dropDownSelector">@drawable/list_selector_background_hct_light</item>
+       <item name="android:popupBackground">@drawable/text_edit_suggestions_window_hct_light</item>
+       <item name="android:dropDownWidth">wrap_content</item>
+    <!--end lcj for text selector-->
+    </style>
+
+     <!--start zhuxu add-->
+     <style name="Widget.HCT.Light.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
+         <item name="android:track">@null</item>
+         <item name="android:thumb">@null</item>
+         <item name="android:textOn">""</item>
+         <item name="android:textOff">""</item>
+         <item name="android:background">@drawable/switch_default_selector_techain</item>
+         <item name="android:showText">false</item>
+     </style>	 
+     <!--end  zhuxu add-->
+
+
+    <!--yangpeng add new -->
+    
+    <!-- Text Appearance Styles -->
+    
+    <style name="TextAppearance.HCT.Light" parent="@android:style/TextAppearance.Material">
+    </style>
+    <style name="TextAppearance.HCT.Light.Inverse" parent="@android:style/TextAppearance.Material.Inverse">
+
+    </style>
+    <!--yangpeng-->
+    <style name="TextAppearance.HCT.Light.Large" parent="@android:style/TextAppearance.Material.Large">
+         
+    </style>
+    <style name="TextAppearance.HCT.Light.Large.Inverse" parent="@android:style/TextAppearance.Material.Large.Inverse">
+
+    </style>
+    <style name="TextAppearance.HCT.Light.Medium" parent="@android:style/TextAppearance.Material.Medium">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@color/primary_text_hct_light</item>
+    </style>
+    <style name="TextAppearance.HCT.Light.Medium.Inverse" parent="@android:style/TextAppearance.Material.Medium.Inverse">
+
+    </style>
+    <style name="TextAppearance.HCT.Light.SearchResult.Subtitle" parent="@android:style/TextAppearance.Material.SearchResult.Subtitle">
+		<item name="android:textColor">#FF2E2E2E</item>
+	</style>
+    <style name="TextAppearance.HCT.Light.SearchResult.Title" parent="@android:style/TextAppearance.Material.SearchResult.Title">
+		<item name="android:textColor">#FF2E2E2E</item>
+    </style>
+    <style name="TextAppearance.HCT.Light.Small" parent="@android:style/TextAppearance.Material.Small">
+		<item name="android:textSize">13sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.HCT.Light.Small.Inverse" parent="@android:style/TextAppearance.Material.Small.Inverse">
+
+    </style>
+    <style name="TextAppearance.HCT.Light.Widget.Button" parent="@android:style/TextAppearance.Material.Widget.Button">
+
+    </style>
+    <style name="TextAppearance.HCT.Light.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">@color/primary_text_hct_light</item>
+    </style>
+    <style name="TextAppearance.HCT.Light.Widget.PopupMenu.Small" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Small">
+
+    </style>
+
+   <style name="TextAppearance.HCT.Light.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" >
+	<item name="android:textAllCaps">false</item>
+	<item name="android:textColor">?android:attr/actionMenuTextColor</item>
+	<item name="android:textStyle">normal</item>
+	<item name="android:textSize">@dimen/action_bar_menu_textsize</item>
+    </style>
+   <style name="TextAppearance.HCT.Light.ListItem.Secondary" parent="@android:style/TextAppearance.Material.Body1" >
+		<item name="android:textColor">#4D000000</item>
+		<item name="android:textSize">12sp</item>
+   </style>
+   <style name="Widget.HCT.SearchView" parent="@android:style/Widget.Material.SearchView">
+        <!--item name="android:queryBackground">@null</item-->
+        <!--item name="android:submitBackground">@null</item-->
+        <item name="android:queryBackground">@drawable/search_edittext_backgroud</item>
+        <item name="android:submitBackground">@drawable/search_edittext_backgroud</item>
+        <item name="android:closeIcon">@drawable/search_cancel</item>
+        <item name="android:searchIcon">@null</item>
+        <item name="android:searchHintIcon">@drawable/search_hint</item>
+        <item name="android:goIcon">@drawable/ic_go_search</item>
+        <item name="android:queryHint">@string/search_hint</item>
+        
+   </style>
+    <style name="Widget.HCT.SearchView.ActionBar">
+        <!--item name="android:queryBackground">@empty</item-->
+        <!--item name="android:submitBackground">@empty</item-->
+    </style>
+
+    <!-- Preference Styles -->
+     <style name="Preference">
+     </style>
+    <style name="Preference.HCT">
+      <item name="android:layout">@layout/preference_material</item>
+      <item name="android:widgetLayout">@layout/preference_widget_indicator</item> 
+    </style>
+    <style name= "PreferenceFragment">
+
+    </style>
+    <style name= "PreferenceFragment.HCT">
+        <item name="android:layout">@layout/preference_list_fragment_material</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+     <style name="Preference.HCT.ActivityStyle" >
+        <item name="android:layout">@layout/preference_list_content_material</item>
+        <item name="headerLayout">@layout/preference_header_item_material</item>
+        <item name="headerRemoveIconIfEmpty">true</item>
+    </style>
+    <style name="Preference.HCT.Category" >
+        <item name="android:layout">@layout/preference_category_material</item>
+        <!-- The title should not dim if the category is disabled, instead only the preference children should dim. -->
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+    <style name="Preference.HCT.CheckBoxPreference">
+      <item name="android:widgetLayout">@layout/preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.HCT.SwitchPreference">
+        <item name="android:widgetLayout">@layout/preference_widget_switch</item>
+        <item name="android:switchTextOn">@string/capital_on</item>
+        <item name="android:switchTextOff">@string/capital_off</item>
+        <item name="android:layout">@layout/preference_material_hct</item>
+    </style>	
+    <style name="Preference.HCT.DialogPreference" >
+      <item name="android:positiveButtonText">@android:string/ok</item>
+      <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference.HCT.DialogPreference.EditTextPreference" >
+        <item name="android:dialogLayout">@layout/preference_dialog_edittext</item>
+    </style>
+    <style name="Preference.HCT.DialogPreference.YesNoPreference">
+        <item name="android:positiveButtonText">@android:string/yes</item>
+        <item name="android:negativeButtonText">@android:string/no</item>
+    </style> 
+    <style name="Preference.HCT.Information">
+        <item name="android:layout">@layout/preference_information_material</item>
+        <item name="android:enabled">false</item>
+        <item name="android:shouldDisableView">false</item>	
+    </style>
+    <style name="Preference.HCT.PreferenceScreen">
+        <item name="android:layout">@layout/preference_material_screen</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+    <style name="Preference.HCT.RingtonePreference">
+    <item name="android:ringtoneType">ringtone</item>
+    <item name="android:showSilent">true</item>
+    <item name="android:showDefault">true</item>
+    </style>
+	
+    <style name="Preference.HCT.SeekBarPreference">
+        <item name="android:layout">@layout/preference_widget_seekbar_material</item>
+    </style>
+
+     <!-- Preference Styles -->
+
+    <style name= "PreferenceFragment.HCT.Light" parent="@style/PreferenceFragment.HCT" >
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    
+    <style name="PreferenceFragmentList">
+
+    </style>
+	<style name="PreferenceFragmentList.HCT">
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>		
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+    <style name="Preference.HCT.PreferenceFrameLayout">
+        <item name="borderTop">0dp</item>
+        <item name="borderBottom">0dp</item>
+        <item name="borderLeft">8dp</item>
+        <item name="borderRight">8dp</item>
+    </style>   
+    <style name="PreferenceHeaderPanel">
+
+    </style> 
+    <style name="PreferenceHeaderPanel.HCT">
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+    <style name="PreferenceHeaderList">
+
+    </style> 
+    <style name="PreferenceHeaderList.HCT">
+        <item name="android:paddingStart">@dimen/preference_screen_header_padding_side_material</item>
+        <item name="android:paddingEnd">@dimen/preference_screen_header_padding_side_material</item>	
+        <item name="android:scrollbarStyle">@integer/preference_screen_header_scrollbarStyle</item>
+    </style>
+
+    <!-- No margins or background by default. Could be different for x-large screens -->
+    <style name="PreferencePanel">
+
+    </style>	
+    <style name="PreferencePanel.HCT">
+        <item name="android:layout_marginStart">0dip</item>
+        <item name="android:layout_marginEnd">0dip</item>
+    </style>
+	
+
+	
+	
+	
+    <!-- AlertDialog Styles -->
+    <style name="AlertDialog">
+
+    </style>
+    <style name="AlertDialog.HCT">
+
+    </style>
+
+    <style name="AlertDialog.HCT.Light" >
+        <item name="needsDefaultBackgrounds">true</item>
+        <item name="listLayout">@layout/select_dialog_material</item>
+        <item name="progressLayout">@layout/progress_dialog_material</item>
+        <item name="horizontalProgressLayout">@layout/alert_dialog_progress_material</item>
+        <item name="listItemLayout">@layout/select_dialog_item_material</item>
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+    <!--lcj for dialog styles -->
+        <item name="fullDark">@drawable/dialog_full_hct_light</item>
+        <item name="topDark">@drawable/dialog_top_hct_light</item>
+        <item name="centerDark">@drawable/dialog_middle_hct_light</item>
+        <item name="bottomDark">@drawable/dialog_bottom_hct_light</item>
+        <item name="fullBright">@drawable/dialog_full_hct_light</item>
+        <item name="topBright">@drawable/dialog_top_hct_light</item>
+        <item name="centerBright">@drawable/dialog_middle_hct_light</item>
+        <item name="bottomBright">@drawable/dialog_bottom_hct_light</item>
+        <item name="bottomMedium">@drawable/dialog_bottom_hct_light</item>
+        <item name="centerMedium">@drawable/dialog_middle_hct_light</item>
+        <item name="layout">@layout/alert_dialog_hct_light</item>
+	 <!--end lcj for dialog styles -->
+    </style>
+
+    <style name="AlertDialog.HCT.Internal" parent="@*android:style/AlertDialog.Holo.Light" >
+    <!--lcj for dialog styles -->
+        <item name="android:fullDark">@drawable/dialog_full_hct_light</item>
+        <item name="android:topDark">@drawable/dialog_top_hct_light</item>
+        <item name="android:centerDark">@drawable/dialog_middle_hct_light</item>
+        <item name="android:bottomDark">@drawable/dialog_bottom_hct_light</item>
+        <item name="android:fullBright">@drawable/dialog_full_hct_light</item>
+        <item name="android:topBright">@drawable/dialog_top_hct_light</item>
+        <item name="android:centerBright">@drawable/dialog_middle_hct_light</item>
+        <item name="android:bottomBright">@drawable/dialog_bottom_hct_light</item>
+        <item name="android:bottomMedium">@drawable/dialog_bottom_hct_light</item>
+        <item name="android:centerMedium">@drawable/dialog_middle_hct_light</item>
+        <item name="android:layout">@layout/alert_dialog_hct_internal</item>
+	 <!--end lcj for dialog styles -->
+    </style>
+
+    <!-- Animation Styles -->
+    <style name="Animation.HCT.Activity" parent="@android:style/Animation.Activity">
+
+    </style>
+    <style name="Animation.HCT.Dialog" parent="@android:style/Animation.Activity">
+		<item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    
+     <style name="Widget.HCT.Light.PopupMenu.Overflow" parent="@android:style/Widget.Material.Light.PopupMenu.Overflow">
+        <item name="android:dropDownVerticalOffset">7dip</item>
+        <item name="android:dropDownHorizontalOffset">-16dip</item>
+		<item name="android:overlapAnchor">true</item>
+    </style>
+
+
+    <!-- DialogWindowTitle Styles -->
+    <style name="DialogWindowTitle" >
+  
+    </style>
+    <style name="DialogWindowTitle.HCT" >
+  
+    </style>
+    <style name="DialogWindowTitle.HCT.Light" >
+		<item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+        <item name="android:ellipsize">end</item>
+		<item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+
+    <!-- WindowTitle Styles -->
+    <style name="WindowTitle">
+
+    </style>
+    <style name="WindowTitle.HCT">
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+
+    </style>	
+    <style name="WindowTitleBackground.HCT">
+        <item name="android:background">@null</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+    </style>
+
+
+    <!-- Other Styles -->
+    <!--style name="HCT.ButtonBar" parent="@android:style/android:Widget.Material.ButtonBar" >
+
+    </style>
+    <style name="HCT.ButtonBar.AlertDialog" parent="@android:style/Widget.Material.ButtonBar.AlertDialog" >
+
+    </style>
+    <style name="HCT.SegmentedButton" parent="android:Holo.SegmentedButton" >
+
+    </style-->
+    <style name="HCT.Light.ButtonBar" parent="@android:style/Widget.Material.ButtonBar" >
+
+    	<item name="android:background">@drawable/btn_default_hct_light</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:textColor">@color/primary_text_hct_light</item>
+    </style>
+    <style name="HCT.Light.ButtonBar.AlertDialog" parent="@android:style/Widget.Material.ButtonBar.AlertDialog" >
+        <item name="android:fontFamily">"sans-serif"</item>
+    </style>
+    <!--style name="HCT.Light.SegmentedButton" parent="android:Holo.Light.SegmentedButton" >
+
+    </style-->
+    <style name="HCT.Light.CardButton" parent="@android:style/Widget.Material.Button" >
+    	<item name="android:background">@drawable/btn_cardbutton_material</item>
+		<item name="android:textColor">@color/btn_cardbuttons_textcolor</item>
+    </style>
+    
+    
+    <style name="Widget" />
+    <!-- Base theme for the menu drawer. -->
+    <style name="Widget.MenuDrawer">
+        <item name="mdMenuBackground">@color/md__defaultBackground</item>
+        <item name="mdContentBackground">?android:attr/windowBackground</item>
+        <item name="mdDrawerOpenUpContentDescription">@string/md__drawerOpenIndicatorDesc</item>
+        <item name="mdDrawerClosedUpContentDescription">@string/md__drawerClosedIndicatorDesc</item>
+    </style>
+	<style name="MenuDrawer" />
+    <style name="MenuDrawer.Widget" />
+
+    <style name="MenuDrawer.Widget.Category">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:background">@drawable/md__category_background</item>
+
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="MenuDrawer.Widget.Title">
+        <item name="android:background">@drawable/md__list_selector_holo_dark</item>
+        <item name="android:textAppearance">?android:attr/textAppearance</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+	 <!-- guojingdong menu drawer -->
+	 <!-- for CardView begin -->
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+     <style name="Widget.TimePicker">
+        <item name="timePickerMode">clock</item>
+        <item name="legacyLayout">@layout/time_picker_legacy_holo</item>
+        <!-- Attributes for new-style TimePicker. -->
+        <item name="internalLayout">@layout/time_picker_holo</item>
+        <item name="headerTimeTextAppearance">@style/TextAppearance.Material.TimePicker.TimeLabel</item>
+        <item name="headerAmPmTextAppearance">@style/TextAppearance.Material.TimePicker.AmPmLabel</item>
+        <item name="headerSelectedTextColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="headerBackground">@drawable/time_picker_header_material</item>
+        <item name="numbersTextColor">?android:attr/textColorSecondary</item>
+        <item name="numbersBackgroundColor">#10ffffff</item>
+        <item name="amPmTextColor">?android:attr/textColorSecondary</item>
+        <item name="amPmBackgroundColor">@android:color/transparent</item>
+        <item name="amPmSelectedBackgroundColor">?android:attr/colorControlActivated</item>
+        <item name="numbersSelectorColor">?android:attr/colorControlActivated</item>
+    </style>
+      <style name="Widget.DatePicker" >
+        <item name="datePickerMode">calendar</item>
+        <!-- Attributes for new-style DatePicker. -->
+        <item name="internalLayout">@layout/date_picker_holo</item>
+        <item name="calendarViewShown">true</item>
+        <item name="dayOfWeekBackground">#10000000</item>
+        <item name="dayOfWeekTextAppearance">@style/TextAppearance.Material.DatePicker.DayOfWeekLabel</item>
+        <item name="headerMonthTextAppearance">@style/TextAppearance.Material.DatePicker.MonthLabel</item>
+        <item name="headerDayOfMonthTextAppearance">@style/TextAppearance.Material.DatePicker.DayOfMonthLabel</item>
+        <item name="headerYearTextAppearance">@style/TextAppearance.Material.DatePicker.YearLabel</item>
+        <item name="headerSelectedTextColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="headerBackground">?android:attr/colorAccent</item>
+        <item name="yearListItemTextAppearance">@style/TextAppearance.Material.DatePicker.List.YearLabel</item>
+        <item name="yearListSelectorColor">?android:attr/colorControlActivated</item>
+        <item name="calendarTextColor">?android:attr/textColorSecondary</item>
+        <item name="calendarSelectedTextColor">?android:attr/colorControlActivated</item>
+    </style>
+    <style name="TextAppearance.Material.TimePicker.TimeLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">@dimen/timepicker_time_label_size</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+    </style>
+
+    <style name="TextAppearance.Material.TimePicker.AmPmLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:textSize">@dimen/timepicker_ampm_label_size</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+
+    <style name="TextAppearance.Material.DatePicker.DayOfWeekLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="android:textSize">@dimen/datepicker_header_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Material.DatePicker.MonthLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item> <!-- selected should be accent -->
+        <item name="android:textSize">@dimen/datepicker_selected_date_month_size</item>
+    </style>
+
+    <style name="TextAppearance.Material.DatePicker.DayOfMonthLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item> <!-- selected should be accent -->
+        <item name="android:textSize">@dimen/datepicker_selected_date_day_size</item>
+    </style>
+
+    <style name="TextAppearance.Material.DatePicker.YearLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item> <!-- selected should be accent -->
+        <item name="android:textSize">@dimen/datepicker_selected_date_year_size</item>
+    </style>
+
+    <style name="TextAppearance.Material.DatePicker.List.YearLabel" parent="@android:style/TextAppearance.Material">
+        <item name="android:textColor">?android:attr/textColorSecondary</item> <!-- selected should be accent -->
+        <item name="android:textSize">@dimen/datepicker_year_label_text_size</item>
+    </style>
+	 <!-- for CardView end -->
+	 <!-- for Poweroff menu MF4.0 begin -->
+    <style name="GlobalActionDialog" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+    	<item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.7</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>	 
+	 <!-- for Poweroff menu MF4.0 end -->
+</resources>

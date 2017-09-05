@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- textColorHighlight -->
+    <color name="hct_green_light">#33328bde</color>
+    <color name="notification_title_text_color_gios">#ff2E2E2E</color>
+    <color name="notification_title_text_line2_gios">#ff969696</color>
+
+    <drawable name="notification_bg_normal_gios">#2f2f2f</drawable>
+    <drawable name="notification_bg_low_normal_gios">#2f2f2f</drawable>
+    <drawable name="notification_bg_normal_pressed_gios">#68ab0a</drawable>
+
+    <!-- guojingdong The default background of the menu. -->
+    <color name="md__defaultBackground">#FFFAFAFA</color>
+    <color name="md__transparent">#00000000</color>
+    <!-- guojingdong The default background of the menu. -->
+    <color name="action_bar_home_pressed">#18000000</color>
+    <color name="list_view_background_hct_light">#fafafa</color>
+    <color name="bright_foreground_hct_light">#E6000000</color>
+    <color name="bright_foreground_disabled_hct_light">#42000000</color>
+    <color name="dim_foreground_hct_light">#999999</color>
+    <color name="dim_foreground_disabled_hct_light">#cccccc</color>
+    <color name="bright_foreground_disabled_hct_dark">#66ffffff</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="bright_foreground_dark">@android:color/background_light</color>
+    <color name="accent_material_light">#ff009688</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="primary_text_default_material_dark">#fffafafa</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+
+    <item name="disabled_alpha_material_light" format="float" type="dimen">0.26</item>
+
+    <color name="highlighted_text_holo_hct_dark">#6633b5e5</color>
+    <color name="hint_foreground_holo_hct_dark">#808080</color>
+    <color name="holo_hct_blue_light">#ff33b5e5</color>
+    <color name="bright_foreground_disabled_holo_hct_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_holo_hct_dark">#fff3f3f3</color>
+    <color name="white">#fffafafa</color>
+    <color name="ripple_material_dark">#40ffffff</color>
+    <!-- for CardView begin -->
+    <!-- Background color for light CardView. -->
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <!-- Background color for dark CardView. -->
+    <color name="cardview_dark_background">#FF202020</color>
+    <!-- Shadow color for the first pixels around CardView. -->
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- Shadow color for the furthest pixels around CardView. -->
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="timepicker_default_ampm_unselected_background_color_material">@android:color/transparent</color>
+    <color name="timepicker_default_text_color_material">@android:color/black</color>
+    <color name="timepicker_default_ampm_selected_background_color_material">#ff80cbc4</color>
+    <color name="timepicker_default_selector_color_material">#ff80cbc4</color>
+    <color name="timepicker_default_numbers_background_color_material">@android:color/transparent</color>
+    <color name="datepicker_default_normal_text_color_holo_light">#ff999999</color>
+    <color name="datepicker_default_disabled_text_color_holo_light">#80999999</color>
+
+    <!-- for CardView end -->
+
+
+    <!-- Add by sanxin.qiu -->
+    <!-- button colors -->
+    <color name="btn_default_shape_press_color">#2775D7</color>
+    <color name="btn_default_shape_unpress_color">#F1F1F1</color>
+    <color name="btn_default_shape_no_enable_color">#D2D2D2</color>
+    <color name="btn_default_shape_border_color">#979797</color>
+    
+    <color name="btn_text_press_color">#FFFFFF</color>
+    <color name="btn_text_unpress_color">#CC000000</color>
+    <color name="btn_text_disable_color">#4D000000</color>
+    
+    <color name="view_default_bg">#FAFAFA</color>
+
+    <!-- seekbar colors -->
+    <color name="seekbar_default_unpress_color">#BDBDBD</color>
+    <color name="seekbar_default_press_color">#2775D7</color>
+    <color name="dialog_title_text_color">#CC000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_disabled_material">#FFFFFF</color>
+    
+    <color name="dialog_message_text_color">#000000</color>
+    
+    <color name="material_deep_teal_5500">#2775D7</color>
+    <color name="material_grey_300">#ffe0e0e0</color>
+    
+    <color name="text_title_color">#CC000000</color>
+    <color name="text_subTitle_color">#4D000000</color>
+
+</resources>

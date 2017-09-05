@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright Statement: newly created for blacklist by guwenxu on 2017/03/24 -->
+<com.hct.gios.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- interception -->
+    <com.hct.gios.preference.PreferenceScreen
+        android:key="intercepetion_rules"
+        android:title="@string/intercepetion_rules" />
+    <!-- black white list -->
+    <com.hct.gios.preference.PreferenceCategory
+        android:key="black_white_list"
+        android:layout="@layout/divider"
+        android:title="@string/tel_black_list" >
+        <com.gome.blacklist.preference.ListPreference
+            android:key="tel_black_list"
+            android:summary="@string/tel_black_list_smmary"
+            android:title="@string/tel_black_list" />
+
+        <com.gome.blacklist.preference.ListPreference
+            android:key="tel_white_list"
+            android:summary="@string/tel_white_list_smmary"
+            android:title="@string/tel_white_list" />
+    </com.hct.gios.preference.PreferenceCategory>
+
+</com.hct.gios.preference.PreferenceScreen>

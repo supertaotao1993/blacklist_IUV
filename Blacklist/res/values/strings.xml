@@ -1,0 +1,132 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Harassment Interception</string>
+
+        <!-- prference setting -->
+    <!-- setting -->
+    <string name="preference_setting">Setting</string>
+    <!-- interception -->
+    <string name="intercepetion">Harassment Interception</string>
+    <string name="intercepetion_rules">Interception Rules</string>
+    <!-- black white list -->
+    <string name="tel_black_list">Blacklist phone numbers</string>
+    <string name="tel_black_list_smmary">Add a number to blacklist, its incoming calls and messages will be intercepted</string>
+    <string name="list_num"></string>
+    <string name="tel_white_list">Whitelist phone numbers</string>
+    <string name="tel_white_list_smmary">Add a number to whitelist, its incoming calls and messages will not be intercepted</string>
+
+    <!-- intercepton rules -->
+    <string name="double_sims_set">Doube sim card set</string>
+
+    <string name="rules_all">Intercept all calls</string>
+    <string name="rules_all_summary">Intercept all calls and messages, including white list numbers</string>
+    <string name="rules_stranger">Intercept all strangers</string>
+    <string name="rules_stranger_summary">No contact number calls and messages will be intercepted</string>
+    <string name="rules_only_allow_white">Only allow whitelist</string>
+    <string name="rules_only_allow_white_smmary">Only white number\'s calls and messages are allowed</string>
+
+    <string name="delete_confirm">"Delete contact"</string>
+
+    <string name="sim1">card1(%s)</string>
+    <string name="sim2">card2(%s)</string>
+
+    <string name="sim_lack">"No card"</string>
+
+    <string name="title_intercept">Harassment Interception</string>
+    
+    <string name="tab_title_intercept_mms_zero">Intercepted messages</string>
+    <string name="tab_title_intercept_mms_other">Intercepted messages（<xliff:g id="count">%d</xliff:g>）</string>
+    
+    <string name="tab_title_intercept_call_zero">Intercepted calls</string>
+    <string name="tab_title_intercept_call_other">Intercepted calls（<xliff:g id="count">%d</xliff:g>）</string>
+    
+    <string name="empty_tips_intercept_mms">No spam</string>
+    <string name="empty_tips_intercept_call">No harassing phone calls</string>
+    
+    <string name="intercept_clear">Clear all</string>
+    <string name="intercept_clear_summary_call">Do you want to delete all intercepted calls?</string>
+    <string name="intercept_clear_summary_sms">Do you want to delete all intercepted messages?</string>
+    
+    <string name="recovery_sms">Recovery message</string>
+    <string name="add_to_white_list">Add to whitelist</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="call">Call</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete all</string>
+    <string name="tips">Tips</string>
+    <string name="add">Add</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="setting">Setting</string>
+    
+    <string name="add_new_contact">Add to Contacts</string>
+    <string name="update_exsit_contact">Update an existing contact</string>
+    
+    <string name="delete_message_intercept_sms">Do you want to delete selected messages?</string>
+    <string name="delete_message_intercept_call">Do you want to delete selected calls?</string>
+    
+    <string name="dialog_move_to_whitelist_summary">Number exists in black list, are you sure to move it to white list?</string>
+    <string name="dialog_move_to_whitelist_checked">Restoring messages at same time</string>
+    <string name="dialog_move_to_blacklist_summary">Number exists in white list, are you sure to move it to black list?</string>
+    <string name="dialog_move_to_whitelist_summary2">Add the number white list?</string>
+    
+    <string name="select_mode_zero">Tap to select</string>
+    <string name="select_mode_other"><xliff:g id="count">%d</xliff:g>items are selected</string>
+
+    <string name="phone_number_category_blacklist">Blacklist number</string>
+    <string name="phone_number_category_whitelist">Whitelist number</string>
+
+    <string name="add_blacklist">Add to blacklist</string>
+    <string name="blacklist_management_title">Blacklist management</string>
+    <string name="blacklist_management_empty">No number in blacklist\nAdd number to blacklist, no longer to receive messages and phone calls from she or he.</string>
+    <string name="blacklist_add_manual">Manully add</string>
+    <string name="blacklist_add_number_prefix">Match number from start</string>
+    <string name="blacklist_add_number_prefix_summary">Enter the number at the beginning, the system auto-completion wildcard*</string>
+    <string name="blacklist_add_from_contacts">Add from Contacts</string>
+    <string name="blacklist_add_from_call_log">Add from Calllogs</string>
+    <string name="blacklist_add_from_sms">Add from Messages</string>
+
+    <string name="blacklist_add_manual_hint">Phone number（Required）</string>
+    <string name="blacklist_delete_contact_title">Remove from blacklist</string>
+    <string name="blacklist_delete_contact_recovery">Recovery messages at the same time</string>
+    <string name="blacklist_delete_contact_message">Select numbers will be removed from blacklist, and will not be intercepted.</string>
+
+    <string name="whitelist_management_title">Whitelist management</string>
+    <string name="whitelist_management_empty">No number in whitelist\nAdd number to whitelist, messages and phone calls from she or he will not be intercepted.</string>
+    <string name="whitelist_add_from_intercept_call">Add from intercepted calls</string>
+    <string name="whitelist_add_from_intercept_sms">Add from intercepted messages</string>
+
+    <string name="whitelist_delete_contact_summary">Select numbers will be removed, and after removing, unsaved numbers may be intercepted by other rules. Recommend to save these numbers to the contacts.</string>
+    <string name="whitelist_delete_contact_title">Remove from whitelist</string>
+
+    <string name="sms_recovery_success">Success to recovery.</string>
+    <string name="sms_recovery_fail">Fail to recovery.</string>
+    <string name="unknown_location">Unknown</string>
+    <string name="add_black_number_success">Number has been added to blacklist.</string>
+    <string name="add_black_number_fail">Number fail to added to blacklist.</string>
+    <string name="del_black_number_success">Number has been removed from blacklist.</string>
+    <string name="del_black_number_fail">Number fail to removed from blacklist.</string>
+    <string name="add_white_number_success">Number has been added to whitelist.</string>
+    <string name="add_white_number_fail">Number fail to added to whitelist.</string>
+    <string name="del_white_number_success">Number has been removed from whitelist.</string>
+    <string name="del_white_number_fail">Number fail to removed from blacklist.</string>
+    <string name="intercept_count_detail">Intercepted calls(<xliff:g id="CALL">%1$s</xliff:g>), messages(<xliff:g id="SMS">%2$s</xliff:g>)</string>
+    <string name="harassment_call_confrim">It looks like a harassing phone call, add the number to blaclist?</string>
+    <string name="add_to_blacklist_confrim">After add the number to blacklist, you will not recieve phone calls and messages from the number, do you still want to add?</string>
+    <string name="add_to_blacklist_title">Add to blacklist</string>
+    <string name="button_add">Add</string>
+    <string name="blacklist_reach_max_tip">Blacklist has reached the MAX, only 500 numbers can be added.</string>
+    <string name="whitelist_reach_max_tip">Whitelist has reached the MAX, only 500 numbers can be added.</string>
+    <string name="recordlist_reach_max_tip">Recordlist has reached the MAX, please delete some older records.</string>
+
+    <string name="processing">processing</string>
+    <string name="processing_add_to_blacklist">In adding to blacklist:</string>
+    <string name="processing_add_to_whitelist">In adding to whitelist:</string>
+    <string name="processing_remove_from_blacklist_restore">In resuming message...</string>
+    <string name="processing_remove_from_blacklist">In removing from blacklist...</string>
+    <string name="processing_remove_from_whitelist">In removing from whitelist...</string>
+    <string name="no_valid_number">None valid number exist.</string>
+    <string name="toast_exist_number_blacklist">The number is already in the blacklist.</string>
+    <string name="toast_exist_number_whitelist">The number is already in the whitelist.</string>
+</resources>

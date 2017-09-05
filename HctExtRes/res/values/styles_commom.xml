@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" >
+    <!--button-->
+    <style name="button_font01" parent="@android:style/TextAppearance.Material.Button" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/button_font01_textcolor</item>
+    </style>
+
+    <style name="button_font02" parent="@android:style/TextAppearance.Material.Button" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/button_font02_textcolor</item>
+    </style>
+    <!--list-->
+    <style name="font01" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/list_primary_font01_textcolor</item>
+    </style>
+
+    <style name="font02" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size02</item>
+        <item name="android:textColor">@color/list_secondary_font02_textcolor</item>
+    </style>
+
+    <style name="font03" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size02</item>
+        <item name="android:textColor">@color/list_grid_font03_textcolor</item>
+    </style>
+
+    <style name="subheader_font01" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size02</item>
+        <item name="android:textColor">@color/gos_common_st</item>
+    </style>
+
+    <!--drawer-->
+    <style name="font04" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size02</item>
+        <item name="android:textColor">@color/drawer_menu_font04_textcolor</item>
+    </style>
+
+    <!--popup-->
+    <style name="popup_font01" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/gos_common_st</item>
+    </style>
+
+    <style name="popup_font02" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/popup_list_font04_textcolor</item>
+    </style>
+
+    <style name="popup_font03" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size01</item>
+        <item name="android:textColor">@color/color06_transparency13</item>
+    </style>
+
+    <style name="popup_font04" parent="@android:style/TextAppearance.Material.Subhead" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/color06_transparency10</item>
+    </style>
+
+    <!--actionbar-->
+    <style name="appbar_font01" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/gos_common_acb_txt</item>
+    </style>
+
+    <style name="appbar_font02" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/font_size02</item>
+        <item name="android:textColor">@color/gos_common_acb_txt</item>
+    </style>
+
+    <!--actionbar 1depth tab-->
+    <style name="tab_font01" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/gos_common_actb_txt</item>
+    </style>
+
+    <style name="tab_font02" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gos_common_actb_txt_fc</item>
+    </style>
+
+    <!--actionbar 2depth tab-->
+    <style name="tab_font03" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/font_size01</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/gos_common_actb_txt</item>
+    </style>
+
+    <style name="tab_font04" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" >
+        <item name="android:textSize">@dimen/font_size01</item>
+        <item name="android:textColor">@color/gos_common_actb_txt_fc</item>
+    </style>
+
+    <!--actionbar search-->
+    <style name="appbar_search_font01" parent="@android:style/TextAppearance.Material" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/gos_common_acb_tf_txt</item>
+    </style> 
+    
+    <style name="appbar_search_font02" parent="@android:style/TextAppearance.Material" >
+        <item name="android:textSize">@dimen/font_size03</item>
+        <item name="android:textColor">@color/gos_common_acb_tf_txt_watermark</item>
+    </style>    
+</resources>

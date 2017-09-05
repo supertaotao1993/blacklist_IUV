@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pickers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        android:paddingBottom= "15dp"
+        >
+
+
+        <!-- space1 -->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/space1"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+        
+        <!-- Year picker -->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/picker_year"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            />
+        <!-- year -->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/year"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <!-- space2-->    
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/space2"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+        
+        <!-- Month picker-->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/picker_month"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+             />
+        <!-- month -->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/month"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <!-- space3-->    
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/space3"
+            android:layout_width="19dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <!-- Day picker-->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/picker_day"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+
+            />
+        <!-- day -->
+        <com.hct.gios.widget.NumberPickerHCT
+            android:id="@+id/day"
+            android:layout_width="16dp"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />            
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/lunar_choice"
+        android:layout_width="fill_parent"
+        android:layout_height="49dp"
+        
+        android:orientation="horizontal"
+        >
+        
+      <TextView
+          android:id="@+id/text1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_alignParentLeft="true"
+          
+          android:textSize="18sp"
+          android:text="@string/lunar"
+      />
+      <com.hct.gios.widget.SwitchHCT
+          android:id="@+id/switch1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          
+      />
+      
+ </RelativeLayout>
+
+
+
+
+
+        
+</LinearLayout>

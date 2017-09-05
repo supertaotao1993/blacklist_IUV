@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2009, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!--add by yangpeng -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--when Swtich button compute the width,use this as factor  -->
+    <integer name="config_switch_width_factor">4</integer>
+
+<integer name="config_switch_height_extend">0</integer>
+	<integer name="config_lowBatteryWarningLevel_ten">10</integer>
+	<integer name="config_lowBatteryWarningLevel_five">5</integer>
+	<integer name="config_lowBatteryWarningLevel_two">2</integer>
+    <bool name="enable_theme_hct">true</bool>
+	<bool name="enable_mipop_hct">true</bool>
+	<!-- Configuartion to support 7bit Ascii encoding and decoding
+         for long messages. -->
+    <bool name="config_ascii_7bit_support_for_long_message">false</bool>
+	    <!-- Configuration to sending and receiving Mms when mobile data is disable.-->
+    <bool name="config_setup_mms_data">false</bool>
+    <!-- Configuration to play sms ringtone during MO/MT call -->
+    <bool name="config_sms_ringtone_incall">false</bool>
+    <string translatable="false" name="hct_config_ntpServer">time.izatcloud.net</string>
+
+    <!--HCT-REQ-<500>:added secondary ntp server for backup-->
+    <string translatable="false" name="hct_config_secondary_ntpServer">cn.pool.ntp.org</string>
+    <string translatable="false" name="gos_hctextres_version">4.0.1.0628</string>
+
+    <!--HCT-REQ-<500>:added ntp servers-->
+    <integer translatable="false" name="hct_config_ntpPollingIntervalShorter">10000</integer>
+    <integer translatable="false" name="hct_config_ntpRetry">13</integer>
+    <integer translatable="false" name="hct_config_ntpFail_timesMax">6</integer>
+    <integer translatable="false" name="hct_config_ntpTimeout">2000</integer>
+    <string-array name="hct_config_ntpServers">
+        <item>cn.pool.ntp.org</item>
+        <item>210.72.145.39</item>
+        <item>asia.pool.ntp.org</item>
+        <item>pool.ntp.org</item>
+    </string-array>
+    <!--HCT-REQ-<500>:added ntp serves-->
+
+    <integer-array name="config_autoBrightnessLevels">
+    <item>10</item>		
+    <item>45</item>		
+    <item>60</item>	
+    <item>150</item>	
+    <item>500</item>	
+    <item>1000</item>
+    <item>2000</item>
+    <item>3000</item>
+    <item>7000</item>
+    </integer-array>
+
+	<!-- Array of output values for LCD backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         The brightness values must be between 0 and 255 and be non-decreasing.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+    <item>20</item>   <!--50 0-10 -->
+    <item>35</item>   <!--70 40-60 -->   
+    <item>60</item>   <!--80 60-110 -->
+    <item>75</item>   <!--95 110-180 -->
+    <item>115</item>  <!--110 180-600 -->
+    <item>160</item>  <!--130 600-1000 -->
+    <item>180</item>  <!--150 1000-2000 -->
+    <item>200</item>  <!--170 2000-3500 -->
+    <item>240</item>  <!--200 3500-7000 -->
+    <item>255</item>  <!--250 8000+ -->
+    </integer-array>
+	
+  
+
+    <!-- Array of output values for button backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         The brightness values must be between 0 and 255 and be non-decreasing.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessButtonBacklightValues">
+	<item>250</item>
+    <item>250</item>
+    <item>250</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>   
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    </integer-array>
+
+    <!-- Array of output values for keyboard backlight corresponding to the LUX values
+         in the config_autoBrightnessLevels array.  This array should have size one greater
+         than the size of the config_autoBrightnessLevels array.
+         The brightness values must be between 0 and 255 and be non-decreasing.
+         This must be overridden in platform specific overlays -->
+    <integer-array name="config_autoBrightnessKeyboardBacklightValues">
+	<item>250</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    </integer-array>
+
+    <!--HCT-REQ-309-begin mod,default value -->
+    <!-- ComponentName of the default dream (Settings.Secure.SCREENSAVER_COMPONENT) -->
+    <string name="config_dreamsDefaultComponent">com.android.dreams.basic/com.android.dreams.basic.Colors</string>
+    <!--HCT-REQ-309-end -->
+        <string-array name="config_locationProviderPackageNames" translatable="false">
+        <!-- The standard AOSP fused location provider -->
+        <item>com.android.location.fused</item>
+        <item>com.baidu.map.location</item>
+    </string-array>
+
+    <integer name="config_maxResolverActivityColumns">3</integer>
+</resources>

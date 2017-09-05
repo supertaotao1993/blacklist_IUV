@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical">
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                
+				<FrameLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent">
+				
+				    <android.support.v7.widget.RecyclerView
+				        android:id="@+id/intercept_list_view"
+				        android:layout_width="match_parent"
+				        android:layout_height="match_parent"
+				        android:visibility="gone" />
+				
+				    <include layout="@layout/empty_view" />
+				
+				    <include layout="@layout/loading_view" />
+				
+				</FrameLayout>
+	            
+	            <View
+	                android:layout_width="match_parent"
+	                android:layout_height="0dp"
+	                android:layout_weight="1" />
+            
+            </LinearLayout>
+        
+        </ScrollView>
+        
+    </LinearLayout>
+    
+    <!-- Buttons below that -->
+    <include layout="@layout/layout_border_button"/>
+    
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--     <color name="tab_background">@color/color03_transparency14</color>-->
+    <color name="tab_background">#fff4f4f4</color>
+    
+    <color name="tab_button_background">#0099CC</color>
+    <color name="tab_buttton_stroke">#000000</color>
+
+    <color name="item_description_text_color">#000000</color>
+    <!-- actionbar 背景色 -->
+    <color name="contacts_actb_bg">#EFEFF0</color>
+    <color name="common_background_color">#FAFAFA</color>
+    <color name="list_background">#FAFAFA</color>
+    <color name="hct_contacts_main_color">@color/contacts_actb_bg</color>
+    <color name="gos_common_nav">#EFEFF0</color>
+    <!-- 悬浮按钮背景色 -->
+    <color name="contacts_fab_bg">#4DB870</color>
+    
+    <color name="sim_switch_text_color_selected">#000000</color>
+    <color name="sim_switch_text_color_unselected">#bfbfbf</color>
+    
+    <!-- 联系人小标题颜色 -->
+    <color name="contacts_st">#4C000000</color>
+    
+    
+    
+
+    <color name="black">#FF000000</color>
+    <color name="balck_plus_icon">#6C6C6C</color>
+    <color name="black_label_background">#B2000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="red">#FFFF0000</color>
+
+    <color name="files_empty_tips_text_color">#45000000</color>
+    <color name="files_item_line_1_text_color">#DE000000</color>
+    <color name="files_item_line_2_text_color">#89000000</color>
+    
+
+    <color name="tab_selected_text_color">#DE000000</color>
+    <color name="tab_unselected_text_color">#45000000</color>
+    <color name="tab_background_color">@color/contacts_actb_bg</color>
+    
+    <color name="button_solid_color">#45000000</color>
+    <color name="button_stroke_color">#89000000</color>
+    
+    <color name="color_empty_text_summary">#4D000000</color>
+    <color name="color_border">#34000000</color>
+
+    <!-- dialog check box text color -->
+    <color name="dialog_message_text_color">#000000</color>
+    <color name="dialog_checkbox_text_color">#4B000000</color>
+</resources>

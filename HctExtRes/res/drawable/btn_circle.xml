@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="#40000000">
+    <item android:drawable="@drawable/circle2" />
+</ripple>
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">    
+    <!-- Pressed -->
+    <item  android:state_pressed="false" android:drawable="@drawable/circle2" />
+    <item  android:state_pressed="true" android:drawable="@drawable/circle3" />
+</selector>

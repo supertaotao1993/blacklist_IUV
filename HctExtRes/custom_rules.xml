@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="custom_rules" default="release">
+    <property name="java.target" value="7" />
+    <property name="java.source" value="7" />
+	<property name="project.lib.dir" value="${env.project_lib_dir}" />
+	<property name="project.target.res_package" value="false" />
+	<property name="project.target.use_custom_appt" value="false" />
+
+	<target name="-pre-build" depends="-gos-build-pre">
+		<path id="build_dep.apk">
+			<!-- Add Ext Jar or APK here -->
+		</path>
+		<pathconvert property="project.target.dep_jar" refid="build_dep.apk"/>
+		<echo message="DepPath=${project.target.dep_jar}"></echo>
+	</target>
+</project>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright Statement: newly created for blacklist by guwenxu on 2017/03/24 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/tab_background"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/sim1_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/sim1"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="@dimen/sim_switch_header_size" />
+
+    <TextView
+        android:id="@+id/sim2_tv"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/sim2"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="@dimen/sim_switch_header_size" />
+
+</LinearLayout>

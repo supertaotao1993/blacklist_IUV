@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <item name="mdContent" type="id" />
+    <item name="mdMenu" type="id" />
+    <item name="md__content" type="id" />
+    <item name="md__menu" type="id" />
+    <item name="md__drawer" type="id" />
+    <item name="mdActiveViewPosition" type="id" />
+    <item name="md__translationX" type="id" />
+    <item name="md__translationY" type="id" />
+	<item name="week" type="id" />
+	<item name="md__background" type="id" />
+	<item name="md__splitbackground" type="id" />
+	<item name="increment" type="id" />
+	<item name="decrement" type="id" />
+	<item name="action_mode_close_button" type="id" />
+	<item name="alertTitle" type="id" />
+	<item name="amPm" type="id" />
+    <item name="body" type="id" />
+    <item name="buttonPanel" type="id" />
+    <item name="calendar_view" type="id" />
+    <item name="cancel" type="id" />
+    <item name="contentPanel" type="id" />
+    <item name="custom" type="id" />
+    <item name="customPanel" type="id" />
+    <item name="datePicker" type="id" />
+    <item name="day" type="id" />
+    <item name="divider" type="id" />
+    <item name="edittext_container" type="id" />
+    <item name="hour" type="id" />
+    <item name="icon" type="id" />
+    <item name="left_icon" type="id" />  
+    <item name="linearLayout" type="id" />
+    <item name="linecancel" type="id" />
+    <item name="lineok" type="id" />
+    <item name="message" type="id" /> 
+    <item name="minute" type="id" />
+    <item name="modifyTime" type="id" />  
+    <item name="month" type="id" />
+    <item name="numberpicker_input" type="id" />
+    <item name="ok" type="id" />
+    <item name="parentPanel" type="id" />
+    <item name="pickers" type="id" />  
+    <item name="progress" type="id" />
+    <item name="radio" type="id" />
+    <item name="repeat_fri" type="id" /> 
+    <item name="repeat_mon" type="id" />
+    <item name="repeat_sat" type="id" />  
+    <item name="repeat_sun" type="id" />
+    <item name="repeat_thu" type="id" />
+    <item name="repeat_tue" type="id" />
+    <item name="repeat_wed" type="id" />
+    <item name="right_icon" type="id" />
+    <item name="scrollView" type="id" />
+    <item name="select_dialog_listview" type="id" />
+    <item name="switchWidget" type="id" />
+    <item name="text1" type="id" />
+    <item name="text2" type="id" />
+    <item name="textSpacerNoButtons" type="id" />
+    <item name="timePickerLayout" type="id" />
+    <item name="title" type="id" />
+    <item name="titleDivider" type="id" />
+    <item name="titleDividerTop" type="id" />
+    <item name="title_container" type="id" />
+    <item name="title_template" type="id" />
+    <item name="topPanel" type="id" />
+    <item name="weekText" type="id" />
+    <item name="year" type="id" />
+    <item name="hct_popup_list" type="id" />
+    <item name="on" type="id" />
+    <item name="off" type="id" />
+	<item name="back_button" type="id" />
+	<item name="breadcrumb_section" type="id" />
+	<item name="button1" type="id" />
+	<item name="button2" type="id" />
+	<item name="button3" type="id" />
+	<item name="button_bar" type="id" />
+	<item name="headers" type="id" />
+	<item name="icon_frame" type="id" />
+	<item name="list_footer" type="id" />
+	<item name="next_button" type="id" />
+	<item name="prefs" type="id" />
+	<item name="prefs_frame" type="id" />
+	<item name="seekbar" type="id" />
+	<item name="skip_button" type="id" />
+	<item name="pressed" type="id" />
+    <item name="not_pressed" type="id" />
+    <item name="ib_add" type="id" />
+    <item name="progress_number" type="id" />
+    <item name="progress_percent" type="id" />
+	<item name="indicator" type="id" />
+	<item name="button_always" type="id" />
+	<item name="button_once" type="id" />
+	<item name="checkbox_always" type="id" />
+	<item name="resolver_grid" type="id" />
+	<item name="timePicker" type="id" />
+	<item name="option1" type="id" />
+	<item name="option2" type="id" />
+	<item name="option3" type="id" />
+	<item name="search_bar" type="id" />
+	<item name="search_badge" type="id" />
+	<item name="search_button" type="id" />
+	<item name="search_edit_frame" type="id" />
+	<item name="search_mag_icon" type="id" />
+	<item name="search_plate" type="id" />
+	<item name="search_src_text" type="id" />
+	<item name="search_close_btn" type="id" />
+	<item name="submit_area" type="id" />
+	<item name="search_go_btn" type="id" />
+	<item name="search_voice_btn" type="id" />
+    <item name="calendar" type="id" />
+	<item name="clock" type="id" />
+	<item name="date_picker_day" type="id" />
+	<item name="date_picker_header" type="id" />
+	<item name="date_picker_month" type="id" />
+	<item name="date_picker_month_and_day_layout" type="id" />
+	<item name="date_picker_month_day_year_layout" type="id" />
+	<item name="date_picker_year" type="id" />
+	<item name="day_picker_selector_layout" type="id" />
+	<item name="hours" type="id" />
+	<item name="minutes" type="id" />
+	<item name="month_text_view" type="id" />
+	<item name="radial_picker" type="id" />
+	<item name="separator" type="id" />
+	<item name="spinner" type="id" />
+	<item name="time_header" type="id" />
+	<item name="ampm_label" type="id" />
+	<item name="animator" type="id" />
+	<item name="divider1" type="id" />
+	<item name="divider2" type="id" />
+	<item name="photodivider" type="id" />
+	<item name="longpress" type="id" />
+	<item name="text_cancel" type="id" />
+	<item name="reset" type="id" />
+	<item name="text_reset" type="id" />
+	<item name="power" type="id" />
+	<item name="text_power" type="id" />
+	<item name="airplanemode" type="id" />
+	<item name="airplane" type="id" />
+	<item name="text_airplane" type="id" />
+	<item name="silent_mode" type="id" />
+	<item name="silent" type="id" />
+	<item name="text_silent" type="id" />
+	<item name="reset_action" type="id" />
+	<item name="power_action" type="id" />
+</resources>

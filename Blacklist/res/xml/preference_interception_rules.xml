@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright Statement: newly created for blacklist by guwenxu on 2017/03/24 -->
+<com.hct.gios.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="sim_set_group" >
+
+    <com.gome.blacklist.preference.InterceptionSimSetPreference
+        android:key="sim_set"
+        android:persistent="false"
+        android:title="@string/double_sims_set" />
+
+    <com.gome.blacklist.preference.SimSwitchPreference
+        android:key="sim_switch"
+        android:persistent="false" />
+
+    <com.hct.gios.preference.PreferenceCategory
+        android:key="rules_group"
+        android:layout="@layout/divider"
+        android:persistent="false" >
+        <com.gome.blacklist.preference.InterceptionStrangerPreference
+            android:dependency="rules_all_contacts"
+            android:key="rules_stranger"
+            android:persistent="false"
+            android:summary="@string/rules_stranger_summary"
+            android:title="@string/rules_stranger" />
+        <!-- <com.hct.gios.preference.CheckBoxPreference -->
+        <com.gome.blacklist.preference.InterceptionOnlyWhitePreference
+            android:dependency="rules_all_contacts"
+            android:key="rules_only_allow_white"
+            android:persistent="false"
+            android:summary="@string/rules_only_allow_white_smmary"
+            android:title="@string/rules_only_allow_white" />
+        <!-- <com.hct.gios.preference.CheckBoxPreference -->
+        <com.gome.blacklist.preference.InterceptionAllContactsPreference
+            android:disableDependentsState="true"
+            android:key="rules_all_contacts"
+            android:persistent="false"
+            android:summary="@string/rules_all_summary"
+            android:title="@string/rules_all" />
+    </com.hct.gios.preference.PreferenceCategory>
+
+</com.hct.gios.preference.PreferenceScreen>

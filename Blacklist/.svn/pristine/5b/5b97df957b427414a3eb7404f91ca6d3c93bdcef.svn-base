@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+	
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_marginTop="16dp"
+        android:text="@string/dialog_move_to_whitelist_summary"
+		android:textAppearance="@style/TextAppearance.HCT.Light"
+		android:textSize="13sp"
+		android:alpha="0.8"
+		android:textColor="@color/dialog_message_text_color"
+		android:fontFamily="NotoSansCJKsc-Regular" />
+    
+    <com.hct.gios.widget.CheckBoxHCT
+        android:id="@+id/dialog_move_to_whitelist_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:text="@string/dialog_move_to_whitelist_checked"
+        android:checked="true"
+        android:textSize="12sp"
+        android:fontFamily="NotoSansCJKsc-Regular"
+        android:textColor="@color/dialog_checkbox_text_color" />
+    
+</LinearLayout>

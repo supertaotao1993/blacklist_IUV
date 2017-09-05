@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright Statement: newly created for blacklist by guwenxu on 2017/03/24 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="end" >
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_gravity="center" 
+        android:textSize="12sp"
+        android:textColor="@color/item_description_text_color"
+        android:alpha="0.3"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <View android:id="@+id/separation_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/end_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_more"
+            android:tint="@color/text_subTitle_color" />
+
+</LinearLayout>

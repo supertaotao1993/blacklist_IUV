@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="18dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+        
+    <TextView
+        android:id="@+id/blacklist_add_number_prefix_summary"
+        android:text="@string/blacklist_add_number_prefix_summary"
+        android:textSize="14sp"
+        android:layout_marginBottom="18dp"
+        android:gravity="start|center_vertical"
+        android:fontFamily="NotoSansCJKsc-Regular"
+        style="@style/TextAppearance.HCT.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <EditText
+        android:id="@+id/contact_add_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="14sp"
+        android:inputType="number"
+        android:background="@drawable/edit_text_bg"
+        android:hint="@string/blacklist_add_manual_hint"
+        android:textAppearance="@style/TextAppearance.HCT.Light.Small" />
+    
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+	    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/color_border" />
+
+    <LinearLayout
+        android:id="@+id/options_sms_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	
+	    <TextView
+        	android:id="@+id/sms_content"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="48dp"
+            android:gravity="center_vertical|start"
+            android:fontFamily="NotoSansCJKsc-Regular"
+			android:textAppearance="@style/TextAppearance.HCT.Light.Small" />
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/color_border" />
+	    
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/options_recovery_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center_vertical|start"
+	        android:text="@string/recovery_sms"
+	        android:fontFamily="NotoSansCJKsc-Regular"
+	        android:textSize="14sp"
+			android:textAppearance="@style/TextAppearance.HCT.Light" />
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/color_border" />
+	    
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/options_call_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center_vertical|start"
+	        android:text="@string/call"
+	        android:fontFamily="NotoSansCJKsc-Regular"
+	        android:textSize="14sp"
+			android:textAppearance="@style/TextAppearance.HCT.Light" />
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/color_border" />
+	    
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/options_add_to_white_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	    <TextView
+	        android:id="@+id/add_to_white_list"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="12dp"
+	        android:gravity="start|center_vertical"
+	        android:text="@string/add_to_white_list"
+	        android:fontFamily="NotoSansCJKsc-Regular"
+	        android:textSize="14sp"
+	        android:textAppearance="@style/TextAppearance.HCT.Light" />
+    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/color_border" />  
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/options_add_to_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:gravity="center_vertical|start"
+	        android:text="@string/add_to_contacts"
+	        android:fontFamily="NotoSansCJKsc-Regular"
+            android:textSize="14sp"
+			android:textAppearance="@style/TextAppearance.HCT.Light" />
+	    
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="1px"
+	        android:background="@color/color_border" />
+	    
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/options_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:padding="12dp"
+        android:text="@string/delete"
+        android:fontFamily="NotoSansCJKsc-Regular"
+        android:textSize="14sp"
+		android:textAppearance="@style/TextAppearance.HCT.Light" />
+    
+</LinearLayout>

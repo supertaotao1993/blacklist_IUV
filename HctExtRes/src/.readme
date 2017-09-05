@@ -1,0 +1,157 @@
+This hidden file is there to ensure there is an src folder.
+Once we support binary library this will go away.
+版本号：
+4.0.1.0505
+1、修改preferencescreen没有返回箭头，增加返回箭头按钮  0509
+2、DateTimePickerDialog超大字体下显示不完整问题 0509
+3、合入systemIcon  0509
+4、actionbar menu textsize从18dip修改为16dip
+5、合入MAX UI视效调整（列表相关的）
+6、合入Tab layout 0513
+
+4.0.1.0513
+1、关机菜单新的视效配套资源合入 0519
+2、合入systemIcon 0523
+3、時間日期控件兼容MF3.5 0524
+4、tab上字体过长显示不完整则向后截断处理 0524
+5、关机菜单英文wording 0524
+6、公共规则合入 0606
+
+4.0.1.0606
+1、actionbar上switch开关关闭状态的背景色改为跟随主题变色 0606
+2、actionmode talkback 0612
+3、合入system icon 0613
+4、修改monkey测试报错 0613
+5、公共规则font style 0613
+
+4.0.1.0615
+1、修改tabbuttonbar增加对mipop的menu键的支持 0615
+2、按照公共规则定义统一修改system icon的大小 0622
+
+4.0.1.0628
+1、合入system icon 0628
+2、增加preferencescreen的返回箭头按钮功能 0628
+3、listfragmentZTE上的toolbarzte添加投影效果 0629
+4、解决短信linksclickable属性不起作用的故障 0630
+5、部分新增图标资源-20160630 0701
+6、解决设置日期时点击取消，日期仍会改变的问题 0705
+7、MAX pagersecond上的字体大小修改为不跟随系统字体大小变化 0705
+8、部分新增图标资源-20160707 0707
+9、dialog投影效果优化 0707
+10、FastScroller monkey测试报错问题
+11、合入农历日期控件，原时间控件和日期控件修改为不联动 0714
+12、部分新增图标资源-20160713 0715
+13、阿拉伯语实现走查问题修改 0817
+
+
+
+
+
+使用说明：
+1、AlertDialog:
+AlerDialog使用规则和系统内的AlerDialog一样，应用模块需要替换的只是导入包名
+import android.app.AlertDialog  改为  import com.zte.mifavor.widget.AlertDialog
+import android.internal.app.AlertController  改为  import com.zte.mifavor.widget.AlertController
+import android.internal.app.AlertActivity  改为  import com.zte.mifavor.widget.AlertActivity
+import android.app.ProgressDialog  改为  import com.zte.mifavor.widget.ProgressDialog
+
+
+2、自定义TabWidget使用方法：
+一级Tab com.zte.mifavor.widget.PagerMainTab
+二级Tab com.zte.mifavor.widget.PagerSecond
+
+（1）xml定义
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.zte.mifavor.widget.PagerMainTab
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="52dip"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/colors"
+        android:layout_below="@+id/tabs"
+        tools:context=".MainActivity" />
+    
+</RelativeLayout>
+（2）代码中使用方法：
+PagerMainTab mTabHost;
+mTabHost = (PagerMainTab) mRootView.findViewById(R.id.tabs);
+mTabHost.setViewPager(mViewPager);
+mTabHost.setCurrentTab(mInitTab);
+
+（3）ViewPager的Adapter只需要是实现下面三个接口即可：
+@Override
+	public CharSequence getPageTitle(int position) {
+		return TITLES[position];
+	}
+@Override
+	public Fragment getItem(int arg0) {
+		return new Fragment();
+	}
+
+@Override
+	public int getCount() {
+		return TITLES.length;
+	}
+PagerMainTab设置tab背景颜色
+mTabHost.setBackgroundColor(bg);
+PagerSecond设置下部的indicatorcolor颜色
+mTabHost.setIndicatorColor(bg);
+
+3 MF4.0 tab控件使用说明
+MF4.0 一级tab页和二级tab页统一使用控件Tab com.zte.mifavor.widget.PagerSecond，
+原MF3.5中的一级tab页控件PagerMainTab仅为向下兼容保留，MF4.0开发不再使用，
+PagerSecond使用方法基本同MF3.5时一致。（请参考：2、自定义TabWidget使用方法）
+应用模块使用时需要设置的地方：
+（1）tab页高度：
+    xml定义 一级tab页高度52dp 
+             二级tab页高度38dp
+    <com.zte.mifavor.widget.PagerSecond
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        />
+ (2)
+  一级tab页：
+  		mTabs.setTextSize(16);
+		mTabs.setIndicatorColor(color);
+	
+   二级tab页：
+   		mTabs.setTextSize(12);
+		mTabs.setIndicatorColor(color);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <!-- Color transparency for A7,A7min-->
+    <color name="color01_transparency01">#00ffffff</color>
+    <color name="color01_transparency02">#14ffffff</color>
+    <color name="color01_transparency03">#1fffffff</color>
+    <color name="color01_transparency04">#2effffff</color>
+    <color name="color01_transparency05">#33ffffff</color>
+    <color name="color01_transparency06">#42ffffff</color>
+    <color name="color01_transparency07">#4dffffff</color>
+    <color name="color01_transparency08">#5cffffff</color>
+    <color name="color01_transparency09">#80ffffff</color>
+    <color name="color01_transparency10">#8affffff</color>
+    <color name="color01_transparency11">#b3ffffff</color>
+    <color name="color01_transparency12">#bfffffff</color>
+    <color name="color01_transparency13">#e6ffffff</color>
+    <color name="color01_transparency14">#ffffffff</color>
+
+    <color name="color02_transparency01">#00fafafa</color>
+    <color name="color02_transparency02">#14fafafa</color>
+    <color name="color02_transparency03">#1ffafafa</color>
+    <color name="color02_transparency04">#2efafafa</color>
+    <color name="color02_transparency05">#33fafafa</color>
+    <color name="color02_transparency06">#42fafafa</color>
+    <color name="color02_transparency07">#4dfafafa</color>
+    <color name="color02_transparency08">#5cfafafa</color>
+    <color name="color02_transparency09">#80fafafa</color>
+    <color name="color02_transparency10">#8afafafa</color>
+    <color name="color02_transparency11">#b3fafafa</color>
+    <color name="color02_transparency12">#bffafafa</color>
+    <color name="color02_transparency13">#e6fafafa</color>
+    <color name="color02_transparency14">#fffafafa</color>
+
+    <color name="color03_transparency01">#00f4f4f4</color>
+    <color name="color03_transparency02">#14f4f4f4</color>
+    <color name="color03_transparency03">#1ff4f4f4</color>
+    <color name="color03_transparency04">#2ef4f4f4</color>
+    <color name="color03_transparency05">#33f4f4f4</color>
+    <color name="color03_transparency06">#42f4f4f4</color>
+    <color name="color03_transparency07">#4df4f4f4</color>
+    <color name="color03_transparency08">#5cf4f4f4</color>
+    <color name="color03_transparency09">#80f4f4f4</color>
+    <color name="color03_transparency10">#8af4f4f4</color>
+    <color name="color03_transparency11">#b3f4f4f4</color>
+    <color name="color03_transparency12">#bff4f4f4</color>
+    <color name="color03_transparency13">#e6f4f4f4</color>
+    <color name="color03_transparency14">#fff4f4f4</color>
+
+    <color name="color04_transparency01">#00eeeeee</color>
+    <color name="color04_transparency02">#14eeeeee</color>
+    <color name="color04_transparency03">#1feeeeee</color>
+    <color name="color04_transparency04">#2eeeeeee</color>
+    <color name="color04_transparency05">#33eeeeee</color>
+    <color name="color04_transparency06">#42eeeeee</color>
+    <color name="color04_transparency07">#4deeeeee</color>
+    <color name="color04_transparency08">#5ceeeeee</color>
+    <color name="color04_transparency09">#80eeeeee</color>
+    <color name="color04_transparency10">#8aeeeeee</color>
+    <color name="color04_transparency11">#b3eeeeee</color>
+    <color name="color04_transparency12">#bfeeeeee</color>
+    <color name="color04_transparency13">#e6eeeeee</color>
+    <color name="color04_transparency14">#ffeeeeee</color>
+
+    <color name="color05_transparency01">#00333333</color>
+    <color name="color05_transparency02">#14333333</color>
+    <color name="color05_transparency03">#1f333333</color>
+    <color name="color05_transparency04">#2e333333</color>
+    <color name="color05_transparency05">#33333333</color>
+    <color name="color05_transparency06">#42333333</color>
+    <color name="color05_transparency07">#4d333333</color>
+    <color name="color05_transparency08">#5c333333</color>
+    <color name="color05_transparency09">#80333333</color>
+    <color name="color05_transparency10">#8a333333</color>
+    <color name="color05_transparency11">#b3333333</color>
+    <color name="color05_transparency12">#bf333333</color>
+    <color name="color05_transparency13">#e6333333</color>
+    <color name="color05_transparency14">#ff333333</color>
+
+    <color name="color06_transparency01">#00000000</color>
+    <color name="color06_transparency02">#14000000</color>
+    <color name="color06_transparency03">#1f000000</color>
+    <color name="color06_transparency04">#2e000000</color>
+    <color name="color06_transparency05">#33000000</color>
+    <color name="color06_transparency06">#42000000</color>
+    <color name="color06_transparency07">#4d000000</color>
+    <color name="color06_transparency08">#5c000000</color>
+    <color name="color06_transparency09">#80000000</color>
+    <color name="color06_transparency10">#8a000000</color>
+    <color name="color06_transparency11">#b3000000</color>
+    <color name="color06_transparency12">#bf000000</color>
+    <color name="color06_transparency13">#e6000000</color>
+    <color name="color06_transparency14">#ff000000</color>
+
+    <color name="color07_transparency01">#00ff0073</color>
+    <color name="color07_transparency02">#14ff0073</color>
+    <color name="color07_transparency03">#1fff0073</color>
+    <color name="color07_transparency04">#2eff0073</color>
+    <color name="color07_transparency05">#33ff0073</color>
+    <color name="color07_transparency06">#42ff0073</color>
+    <color name="color07_transparency07">#4dff0073</color>
+    <color name="color07_transparency08">#5cff0073</color>
+    <color name="color07_transparency09">#80ff0073</color>
+    <color name="color07_transparency10">#8aff0073</color>
+    <color name="color07_transparency11">#b3ff0073</color>
+    <color name="color07_transparency12">#bfff0073</color>
+    <color name="color07_transparency13">#e6ff0073</color>
+    <color name="color07_transparency14">#ffff0073</color>
+
+    <color name="color08_transparency01">#00e4308d</color>
+    <color name="color08_transparency02">#14e4308d</color>
+    <color name="color08_transparency03">#1fe4308d</color>
+    <color name="color08_transparency04">#2ee4308d</color>
+    <color name="color08_transparency05">#33e4308d</color>
+    <color name="color08_transparency06">#42e4308d</color>
+    <color name="color08_transparency07">#4de4308d</color>
+    <color name="color08_transparency08">#5ce4308d</color>
+    <color name="color08_transparency09">#80e4308d</color>
+    <color name="color08_transparency10">#8ae4308d</color>
+    <color name="color08_transparency11">#b3e4308d</color>
+    <color name="color08_transparency12">#bfe4308d</color>
+    <color name="color08_transparency13">#e6e4308d</color>
+    <color name="color08_transparency14">#ffe4308d</color>
+
+    <color name="color09_transparency01">#00f34235</color>
+    <color name="color09_transparency02">#14f34235</color>
+    <color name="color09_transparency03">#1ff34235</color>
+    <color name="color09_transparency04">#2ef34235</color>
+    <color name="color09_transparency05">#33f34235</color>
+    <color name="color09_transparency06">#42f34235</color>
+    <color name="color09_transparency07">#4df34235</color>
+    <color name="color09_transparency08">#5cf34235</color>
+    <color name="color09_transparency09">#80f34235</color>
+    <color name="color09_transparency10">#8af34235</color>
+    <color name="color09_transparency11">#b3f34235</color>
+    <color name="color09_transparency12">#bff34235</color>
+    <color name="color09_transparency13">#e6f34235</color>
+    <color name="color09_transparency14">#fff34235</color>
+
+</resources>
+

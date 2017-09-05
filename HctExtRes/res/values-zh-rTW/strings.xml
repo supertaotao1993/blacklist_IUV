@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="system_res_label">"系統資源"</string>
+  <string name="no_content">"沒有音樂內容"</string>
+  <string name="set_silent">"靜音"</string>
+  <string name="wifi_hotspot_turned_off">"WLAN 熱點關閉"</string>
+  <string name="wifi_hotspot_turned_off_summary">"休眠時間已啟用，您可以到WLAN熱點-高級-熱點休眠策略進行修改。"</string>
+  <string name="multi_language_20404">"中國電信"</string>
+  <string name="multi_language_46003">"中國電信"</string>
+  <string name="multi_language_46001">"中國聯通"</string>
+  <string name="multi_language_46000">"中國移動"</string>
+  <string name="multi_language_46002">"中國移動"</string>
+  <string name="multi_language_46007">"中國移動"</string>
+  <string name="connect_joystick_notification_title">"外接遊戲搖桿已連接"</string>
+  <string name="overtemp_to_shutdown">"溫度過高即將關機"</string>
+  <string name="over_temprature">"溫度過高"</string>
+  <string name="disconnect_joystick_notification_title">"外接遊戲搖桿已移除"</string>
+  <string name="connect_keyboard_notification_title">"外接鍵盤已連接"</string>
+  <string name="disconnect_keyboard_notification_title">"外接鍵盤已移除"</string>
+  <string name="ota_mount_notification_title">"外接儲存裝置已連接"</string>
+  <string name="ota_mount_notification_message">"選擇在手機與外接儲存裝置之間複製檔"</string>
+  <string name="ota_unmount_notification_title">"卸載外接儲存裝置"</string>
+  <string name="ota_unmount_notification_message">"卸載外接儲存裝置以將其安全移除"</string>
+  <string name="ota_unexpectedly_removed_notification_title">"外接儲存裝置異常拔出"</string>
+  <string name="ota_unexpectedly_removed_notification_message">"移除外接儲存裝置之前請先將其卸載，以免資料丟失"</string>
+  <string name="ota_unmounted_notification_title">"外接儲存裝置已卸載"</string>
+  <string name="global_action_reset">"重新啟動"</string>
+  <string name="global_action_quickpower_on">"已開啟快速啟動"</string>
+  <string name="global_action_quickpower_off">"已關閉快速啟動"</string>
+  <string name="global_action_rboot_message">"長按電源鍵10秒關機"</string>
+  <string name="reboot_title">"重新啟動"</string>
+  <string name="reboot_confirm">"您的手機會重新啟動"</string>
+  <string name="reboot_confirm_question">"您要重啟嗎？"</string>
+  <string name="toast_wifi_connected_message">"已連接到 SSID 
+    <xliff:g id="ssid">%1$s</xliff:g>."</string>
+  <string name="pppoe_indicator_title">"PPPOE 設置"</string>
+  <string name="pppoe_indicator_detail_connected">"已連線"</string>
+  <string name="pppoe_indicator_detail_connecting">"連線中…"</string>
+  <string name="pppoe_indicator_detail_connect_failure">"未連接"</string>
+  <string name="search_go">"搜尋"</string>
+  <string name="searchview_description_search">"搜尋"</string>
+  <string name="searchview_description_query">"搜尋查詢"</string>
+  <string name="searchview_description_clear">"清除查詢"</string>
+  <string name="searchview_description_submit">"提交查詢"</string>
+  <string name="searchview_description_voice">"語音搜尋"</string>
+  <string name="datetime_dialog_title">"設置日期&amp;時間"</string>
+  <string name="md__drawerOpenIndicatorDesc">"關閉"</string>
+  <string name="md__drawerClosedIndicatorDesc">"開啟"</string>
+  <string name="hct_days_of_week_Mon">"週一"</string>
+  <string name="hct_days_of_week_Tue">"週二"</string>
+  <string name="hct_days_of_week_Wed">"週三"</string>
+  <string name="hct_days_of_week_Thu">"週四"</string>
+  <string name="hct_days_of_week_Fri">"週五"</string>
+  <string name="hct_days_of_week_Sat">"週六"</string>
+  <string name="hct_days_of_week_Sun">"週日"</string>
+  <string name="alwaysUse">"設為預設應用程式。"</string>
+  <string name="whichApplication">"選擇要使用的應用程式"</string>
+  <string name="whichHomeApplication">"選取主螢幕應用程式"</string>
+  <string name="noApplications">"沒有應用程式可執行這項操作。"</string>
+  <string name="date_time_done">"完成"</string>
+  <string name="date_picker_dialog_title">"設定日期"</string>
+  <string name="time_picker_increment_minute_button">"增加分鐘數"</string>
+  <string name="time_picker_decrement_minute_button">"減少分鐘數"</string>
+  <string name="time_picker_increment_hour_button">"增加小時數"</string>
+  <string name="time_picker_decrement_hour_button">"減少小時數"</string>
+  <string name="time_picker_increment_set_pm_button">"設定 PM 值"</string>
+  <string name="time_picker_decrement_set_am_button">"設定 AM 值"</string>
+  <string name="date_picker_increment_month_button">"增加月數"</string>
+  <string name="date_picker_decrement_month_button">"減少月數"</string>
+  <string name="date_picker_increment_day_button">"增加日數"</string>
+  <string name="date_picker_decrement_day_button">"減少日數"</string>
+  <string name="date_picker_increment_year_button">"增加年數"</string>
+  <string name="date_picker_decrement_year_button">"減少年數"</string>
+  <string name="back_button_label">"返回"</string>
+  <string name="next_button_label">"繼續"</string>
+  <string name="skip_button_label">"略過"</string>
+  <string name="capital_on">"開"</string>
+  <string name="capital_off">"關"</string>
+  <string name="ok">"確定"</string>
+  <string name="cancel">"取消"</string>
+  <string name="activity_resolver_use_always">"一律採用"</string>
+  <string name="activity_resolver_use_once">"僅限一次"</string>
+  <string name="search_hint">"搜尋…"</string>
+  <string name="hour_picker_description">"小時數循環滑桿"</string>
+  <string name="minute_picker_description">"分鐘數循環滑桿"</string>
+  <string name="select_hours">"選取小時數"</string>
+  <string name="select_minutes">"選取分鐘數"</string>
+  <string name="deleted_key">"已刪除 <xliff:g id="KEY">%1$s</xliff:g>"</string>
+  <string name="day_picker_description">"日期網格 (按月顯示)"</string>
+  <string name="select_day">"選取月份和日期"</string>
+  <string name="year_picker_description">"年份清單"</string>
+  <string name="select_year">"選取年份"</string>
+  <string name="item_is_selected">"已選取 <xliff:g id="ITEM">%1$s</xliff:g>"</string>
+  <string name="global_action_poweroff">"關機"</string>
+  <string name="airplane_on">"飛安模式"</string>
+  <string name="airplane_off">"飛航模式"</string>
+  <string name="ring">"鈴響"</string>
+  <string name="vibrate">"震動"</string>
+  <string name="silent">"靜音"</string>
+
+  <string name="sim_name">"卡<xliff:g id="CARD_NUMBER">%1$d</xliff:g>"</string>
+  <string name="spn_china_telecom">"中國電信"</string>
+  <string name="spn_china_unicom">"中國聯通"</string>
+  <string name="spn_china_mobile">"中國移動"</string>
+
+  <string name="time_picker_dialog_title">"設定時間"</string>
+
+  <string name="wifi_max_client_notification">"行動作用區連線數量已達上限。請將一個以上的裝置中斷連線，以利新裝置連線。"</string>
+
+
+  <string-array name="year">
+    <item>"年"</item>
+  </string-array>
+  <string-array name="month">
+    <item>"月"</item>
+  </string-array>
+  <string-array name="day">
+    <item>"日"</item>
+  </string-array>
+
+
+
+
+  <string name="lunar">"農曆"</string>
+</resources>

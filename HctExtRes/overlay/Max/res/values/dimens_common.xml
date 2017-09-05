@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/dimens.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- Padding for A7,A7min-->
+    <dimen name="padding01">4dp</dimen>
+    <dimen name="padding02">6dp</dimen>
+    <dimen name="padding03">8dp</dimen>
+    <dimen name="padding04">11dp</dimen>
+    <dimen name="padding05">14dp</dimen>
+    <dimen name="padding06">18dp</dimen>
+    <dimen name="padding07">22dp</dimen>
+    <dimen name="padding08">30dp</dimen>
+    <dimen name="padding09">36dp</dimen>
+    <dimen name="padding10">44dp</dimen>
+    <dimen name="padding11">52dp</dimen>
+    <dimen name="padding12">58dp</dimen>
+    <dimen name="padding13">66dp</dimen>
+    <dimen name="padding14">12dp</dimen>
+    <dimen name="padding15">7dp</dimen>
+
+    <!-- Width for A7,A7min-->
+    <dimen name="width01">16dp</dimen>
+    <dimen name="width02">22dp</dimen>
+    <dimen name="width03">30dp</dimen>
+    <dimen name="width04">36dp</dimen>
+    <dimen name="width05">44dp</dimen>
+    <dimen name="width06">52dp</dimen>
+    <dimen name="width07">72dp</dimen>
+    <dimen name="width08">77dp</dimen>
+    <dimen name="width09">78dp</dimen>
+    <dimen name="width10">116dp</dimen>
+    <dimen name="width11">160dp</dimen>
+    <dimen name="width12">264dp</dimen>
+    <dimen name="width13">272dp</dimen>
+    <dimen name="width14">300dp</dimen>
+    <dimen name="width15">360dp</dimen>
+    <dimen name="width16">720dp</dimen>
+
+    <!-- Width for A7,A7min-->
+    <dimen name="height01">1px</dimen>
+    <dimen name="height02">1dp</dimen>
+    <dimen name="height03">2dp</dimen>
+    <dimen name="height04">16dp</dimen>
+    <dimen name="height05">22dp</dimen>
+    <dimen name="height06">30dp</dimen>
+    <dimen name="height07">33dp</dimen>
+    <dimen name="height08">36dp</dimen>
+    <dimen name="height09">44dp</dimen>
+    <dimen name="height10">52dp</dimen>
+    <dimen name="height11">58dp</dimen>
+    <dimen name="height12">72dp</dimen>
+    <dimen name="height13">78dp</dimen>
+    <dimen name="height14">80dp</dimen>
+    <dimen name="height15">160dp</dimen>
+    <dimen name="height16">23dp</dimen>
+    <dimen name="height17">2px</dimen>
+
+    <dimen name="button_padding01">4dp</dimen>
+
+    <dimen name="roundness01">2dp</dimen>
+    <dimen name="floating_width01">36dp</dimen>
+    <dimen name="floating_width02">52dp</dimen>
+    <dimen name="tab_width01">84dp</dimen>
+    <dimen name="tab_width02">126dp</dimen>
+    <dimen name="grid_width01">85dp</dimen>
+    <dimen name="grid_width02">174dp</dimen>
+    <dimen name="popup_divider_width01">304dp</dimen>
+    <dimen name="list_divider_width01">294dp</dimen>
+
+    <dimen name="button_height">33dp</dimen>
+    <dimen name="button_footer_height01">44dp</dimen>
+    <dimen name="floating_height01">36dp</dimen>
+    <dimen name="floating_height02">52dp</dimen>
+    <dimen name="list_height01">44dp</dimen>
+    <dimen name="list_height02">52dp</dimen>
+    <dimen name="list_height03">58dp</dimen>
+    <dimen name="list_height04">66dp</dimen>
+    <dimen name="list_height05">72dp</dimen>
+    <dimen name="list_height06">88dp</dimen>
+    <dimen name="subheader_height01">48dp</dimen>
+    <dimen name="grid_height01">85dp</dimen>
+    <dimen name="grid_height02">174dp</dimen>
+    <dimen name="indicator_height01">23dp</dimen>
+    <dimen name="appbar_height01">48dp</dimen>
+    <dimen name="softkey_height01">40dp</dimen>
+    <dimen name="subtab_height01">34dp</dimen>
+    <!-- Font size for A7,A7min-->
+    <dimen name="font_size01">11sp</dimen>
+    <dimen name="font_size02">12sp</dimen>
+    <dimen name="font_size03">14sp</dimen>
+    <dimen name="font_size04">16sp</dimen>
+    <dimen name="font_size05">18sp</dimen>
+    <dimen name="font_size06">20sp</dimen>
+    <dimen name="font_size07">22sp</dimen>
+    <dimen name="font_size08">33sp</dimen>
+    <dimen name="font_size09">44sp</dimen>
+    <dimen name="font_size10">52sp</dimen>
+    <dimen name="font_size11">55sp</dimen>
+
+    
+</resources>

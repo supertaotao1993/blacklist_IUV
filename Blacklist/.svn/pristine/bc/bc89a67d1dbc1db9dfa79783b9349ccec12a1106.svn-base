@@ -1,0 +1,47 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Blacklist" parent="@style/Theme.HCT.Light">
+        <item name="android:dropDownListViewStyle">@style/Blacklist.dropDownListView</item>
+        <item name="android:actionOverflowButtonStyle">@style/Blacklist.actionOverflowButton</item>
+        <item name="android:actionModeStyle">@style/Blacklist.ActionMode</item>
+        <item name="android:actionModeCloseButtonStyle">@style/Blacklist.ActionMode.CloseMode</item>
+        <item name="android:listViewStyle">@style/Blacklist.ListView</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:windowBackground">@color/common_background_color</item>
+        <item name="android:colorPrimary">@color/hct_contacts_main_color</item>
+         <!-- virtual key setting color -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:navigationBarColor">@color/gos_common_nav</item>
+    </style>
+
+    <style name="Blacklist.ListView" parent="@android:style/Widget.Material.Light.ListView" >
+        <item name="android:background">@color/list_background</item>
+        <item name="android:overScrollMode">always</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="Blacklist.ActionMode" parent="@style/Widget.HCT.Light.ActionMode" >
+        <item name="android:background">@color/contacts_actb_bg</item>
+    </style>
+
+    <style name="Blacklist.ActionMode.CloseMode" parent="@style/Widget.HCT.Light.ActionButton">
+        <item name="android:minWidth">40dip</item>
+        <item name="android:gravity">end</item>
+        <item name="android:paddingEnd">0dip</item>
+    </style>
+
+    <style name="Blacklist.actionOverflowButton" parent="@style/Widget.HCT.Light.ActionButton.Overflow" >
+       <!--  <item name="android:src">@drawable/ic_menu_moreoverflow_hct_light</item> -->
+       <item name="android:src">@drawable/ic_add</item>
+    </style>
+
+    <style name="Blacklist.dropDownListView" parent="@style/Widget.HCT.ListView.DropDown" >
+        <item name="android:divider">@color/color_border</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+    <style name="Blacklist.BorderButton" parent="@style/Widget.HCT.Light.Button" >
+        <item name="android:background">@drawable/border_button_bg</item>
+    </style>
+    
+</resources>

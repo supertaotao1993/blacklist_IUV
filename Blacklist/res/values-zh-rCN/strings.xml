@@ -1,0 +1,133 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">骚扰拦截</string>
+
+    <!-- prference setting -->
+    <!-- setting -->
+    <string name="preference_setting">设置</string>
+    <!-- interception -->
+    <string name="intercepetion">骚扰拦截</string>
+    <string name="intercepetion_rules">拦截规则</string>
+    <!-- black white list -->
+    <string name="tel_black_list">号码黑名单</string>
+    <string name="tel_black_list_smmary">加入黑名单的号码,其来电和信息将被拦截</string>
+    <string name="list_num">个</string>
+    <string name="tel_white_list">号码白名单</string>
+    <string name="tel_white_list_smmary">加入白名单的号码,其来电和信息不会被拦截</string>
+
+    <!-- intercepton rules -->
+    <string name="double_sims_set">双卡分别设置</string>
+
+    <string name="rules_all">拦截所有来电</string>
+    <string name="rules_all_summary">拦截所有来电和信息，包括白名单号码</string>
+    <string name="rules_stranger">拦截所有陌生人</string>
+    <string name="rules_stranger_summary">非联系人号码的来电和信息将被拦截</string>
+    <string name="rules_only_allow_white">仅允许白名单</string>
+    <string name="rules_only_allow_white_smmary">仅允许白名单中号码来电和信息</string>
+
+    <string name="delete_confirm">"将删除联系人"</string>
+
+    <string name="sim1">卡1(%s)</string>
+    <string name="sim2">卡2(%s)</string>
+
+    <string name="sim_lack">"未插卡"</string>
+	
+    <string name="title_intercept">骚扰拦截</string>
+    
+    <string name="tab_title_intercept_mms_zero">信息拦截</string>
+    <string name="tab_title_intercept_mms_other">信息拦截（<xliff:g id="count">%d</xliff:g>）</string>
+    
+    <string name="tab_title_intercept_call_zero">来电拦截</string>
+    <string name="tab_title_intercept_call_other">来电拦截（<xliff:g id="count">%d</xliff:g>）</string>
+    
+    <string name="empty_tips_intercept_mms">没有垃圾信息</string>
+    <string name="empty_tips_intercept_call">没有骚扰电话</string>
+    
+    <string name="intercept_clear">一键清空</string>
+    <string name="intercept_clear_summary_call">是否删除所有被拦截的电话？</string>
+    <string name="intercept_clear_summary_sms">是否删除所有被拦截的信息？</string>
+    
+    <string name="recovery_sms">恢复信息</string>
+    <string name="add_to_white_list">添加到白名单</string>
+    <string name="add_to_contacts">添加联系人</string>
+    <string name="call">呼叫</string>
+    <string name="delete">删除</string>
+    <string name="delete_all">全部删除</string>
+    <string name="tips">提示</string>
+    <string name="add">添加</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="remove">移除</string>
+    <string name="setting">设置</string>
+	
+    <string name="add_new_contact">新建联系人</string>
+    <string name="update_exsit_contact">更新已有联系人</string>
+    
+    <string name="delete_message_intercept_sms">是否删除所选短信息？</string>
+    <string name="delete_message_intercept_call">是否删除所选来电记录？</string>
+	
+    <string name="dialog_move_to_whitelist_summary">此号码在黑名单中，是否将其从黑名单移入白名单？</string>
+    <string name="dialog_move_to_whitelist_checked">同时恢复信息</string>
+    <string name="dialog_move_to_blacklist_summary">此号码在白名单中，是否将其从白名单移入黑名单？</string>
+    <string name="dialog_move_to_whitelist_summary2">将此号码添加到白名单？</string>
+	
+    <string name="select_mode_zero">点按进行选择</string>
+    <string name="select_mode_other"><xliff:g id="count">%d</xliff:g>项被选择</string>
+
+    <string name="phone_number_category_blacklist">黑名单号码</string>
+    <string name="phone_number_category_whitelist">白名单号码</string>
+
+    <string name="add_blacklist">添加黑名单联系人</string>
+    <string name="blacklist_management_title">黑名单管理</string>
+    <string name="blacklist_management_empty">没有黑名单号码\n加入黑名单，不再接收TA的信息和电话。</string>
+    <string name="blacklist_add_manual">手动添加</string>
+    <string name="blacklist_add_number_prefix">开头号码匹配</string>
+    <string name="blacklist_add_number_prefix_summary">输入开头号码，系统自动补全通配符*</string>
+    <string name="blacklist_add_from_contacts">从联系人添加</string>
+    <string name="blacklist_add_from_call_log">从通话记录添加</string>
+    <string name="blacklist_add_from_sms">从信息添加</string>
+
+    <string name="blacklist_add_manual_hint">电话号码（必填）</string>
+    <string name="blacklist_delete_contact_title">从黑名单移除</string>
+    <string name="blacklist_delete_contact_recovery">同时恢复信息</string>
+    <string name="blacklist_delete_contact_message">将从黑名单中移除所选号码，以后不再拦截。</string>
+
+    <string name="whitelist_management_title">白名单管理</string>
+    <string name="whitelist_management_empty">没有白名单号码\n加入白名单，TA的信息和电话不会被拦截。</string>
+    <string name="whitelist_add_from_intercept_call">从拦截电话中添加</string>
+    <string name="whitelist_add_from_intercept_sms">从拦截信息中添加</string>
+
+    <string name="whitelist_delete_contact_summary">将移除所选号码，移除后，未保存至联系人的号码可能会被其他拦截规则拦截，建议将这些号码保存到联系人。</string>
+    <string name="whitelist_delete_contact_title">从白名单移除</string>
+	
+    <string name="sms_recovery_success">恢复成功。</string>
+    <string name="sms_recovery_fail">恢复失败。</string>
+    <string name="unknown_location">未知</string>
+    <string name="add_black_number_success">号码已添加至黑名单。</string>
+    <string name="add_black_number_fail">添加至黑名单失败。</string>
+    <string name="del_black_number_success">号码已从黑名单中移除。</string>
+    <string name="del_black_number_fail">号码从黑名单中移除失败。</string>
+    <string name="add_white_number_success">号码已添加至白名单。</string>
+    <string name="add_white_number_fail">添加至白名单失败。</string>
+    <string name="del_white_number_success">号码已从白名单中移除。</string>
+    <string name="del_white_number_fail">号码从白名单中移除失败。</string>
+    <string name="intercept_count_detail">已拦截，电话（<xliff:g id="CALL">%1$s</xliff:g>），信息（<xliff:g id="SMS">%2$s</xliff:g>）</string>
+    <string name="harassment_call_confrim">疑是骚扰电话，是否加入黑名单？</string>
+    <string name="add_to_blacklist_confrim">加入黑名单后，将不会收到此号码的呼叫和信息，是否添加？</string>
+    <string name="add_to_blacklist_title">加入黑名单</string>
+    <string name="button_add">加入</string>
+    <string name="blacklist_reach_max_tip">黑名单已达上限，只能添加500个号码。</string>
+    <string name="whitelist_reach_max_tip">白名单已达上限，只能添加500个号码。</string>
+    <string name="recordlist_reach_max_tip">记录已达上限，请删除部分比较旧的记录。</string>
+
+    <string name="processing">处理中......</string>
+    <string name="processing_add_to_blacklist">添加到黑名单中：</string>
+    <string name="processing_add_to_whitelist">添加到白名单中：</string>
+    <string name="processing_remove_from_blacklist_restore">恢复信息中...</string>
+    <string name="processing_remove_from_blacklist">从黑名单移除中...</string>
+    <string name="processing_remove_from_whitelist">从白名单移除中...</string>
+    <string name="no_valid_number">无有效号码。</string>
+    <string name="toast_exist_number_blacklist">号码已在黑名单中。</string>
+    <string name="toast_exist_number_whitelist">号码已在白名单中。</string>
+</resources>
